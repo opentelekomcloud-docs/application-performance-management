@@ -35,7 +35,7 @@ otcdocs_doc_environment = 'public'
 otcdocs_doc_link = '/application-performance-management/umn/'
 otcdocs_doc_title = 'User Guide'
 otcdocs_doc_type = 'umn'
-otcdocs_service_category = 'md'
+otcdocs_service_category = 'application'
 otcdocs_service_title = 'Application Performance Management'
 otcdocs_service_type = 'apm'
 otcdocs_search_environment = 'hc_de'
@@ -124,6 +124,11 @@ latex_elements = {
   'papersize': 'a4paper',
   'pointsize': '12pt',
   'figure_align': 'H',
-  'preamble': r'\newcommand{\githash}{' + current_commit_hash + '}',
+  'preamble': rf'''
+        \newcommand{{\githash}}{{{current_commit_hash}}}
+        \newcommand{{\gitcommittime}}{{{current_commit_time}}}
+        \newcommand{{\doctitle}}{{{otcdocs_doc_title}}}
+        \newcommand{{\servicetitle}}{{{otcdocs_service_title}}}
+  ''',
   'sphinxsetup': 'hmargin={15mm,15mm}, vmargin={20mm,30mm}, marginpar=10mm'
 }
