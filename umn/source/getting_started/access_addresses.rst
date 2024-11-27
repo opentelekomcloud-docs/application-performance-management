@@ -10,5 +10,5 @@ Access Addresses
    ====== ===========================
    Region Access Address
    ====== ===========================
-   eu-de  https://100.125.40.55:41333
+   eu-de  https://apm-lb.eu-de.otc.t-systems.com:41333
    ====== ===========================
