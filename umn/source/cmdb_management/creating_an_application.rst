@@ -7,7 +7,7 @@ Creating an Application
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **Application Monitoring** > **Metrics**.
 
@@ -30,7 +30,7 @@ Creating an Application
       |                                   |                                                                                                                        |
       |                                   | Enter 1 to 128 characters and start with a letter. Only digits, letters, underscores (_), and hyphens (-) are allowed. |
       +-----------------------------------+------------------------------------------------------------------------------------------------------------------------+
-      | Display Name                      | Display name of an application, which cannot be empty.                                                                 |
+      | Display Name                      | Application alias. The alias takes precedence over the application name to display.                                    |
       |                                   |                                                                                                                        |
       |                                   | Enter 1 to 128 characters. Only digits, letters, underscores (_), hyphens (-), brackets, and periods (.) are allowed.  |
       +-----------------------------------+------------------------------------------------------------------------------------------------------------------------+

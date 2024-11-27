@@ -5,10 +5,6 @@
 Application Monitoring Details
 ==============================
 
-.. note::
-
-   The **Metrics** page displays only the involved monitoring item metrics of connected applications.
-
 -  :ref:`Topology <apm_07_0067>`
 -  :ref:`URL <apm_07_0006>`
 -  :ref:`JVM <apm_07_0007>`

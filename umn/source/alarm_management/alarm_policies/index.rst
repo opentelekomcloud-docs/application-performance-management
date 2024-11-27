@@ -5,8 +5,6 @@
 Alarm Policies
 ==============
 
-You can configure alarm templates, create custom alarm policies, or use recommended alarm templates.
-
 -  :ref:`Configuring an Alarm Template <apm_07_0024>`
 -  :ref:`Creating a Custom Alarm Policy <apm_07_0025>`
 -  :ref:`Recommended Alarm Templates <apm_07_0059>`

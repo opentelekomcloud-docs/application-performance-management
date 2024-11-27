@@ -12,7 +12,7 @@ Viewing Exception Logs
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **Application Monitoring** > **Metrics**.
 
@@ -30,25 +30,25 @@ Viewing Exception Logs
 
    .. table:: **Table 1** Exception and log parameters
 
-      +-------------+------------------+--------------------------------------------------+
-      | Metric Set  | Parameter        | Description                                      |
-      +=============+==================+==================================================+
-      | Exception   | Class            | Exception class                                  |
-      +-------------+------------------+--------------------------------------------------+
-      |             | Exception Type   | Exception type                                   |
-      +-------------+------------------+--------------------------------------------------+
-      |             | Log Type         | Exception log type                               |
-      +-------------+------------------+--------------------------------------------------+
-      |             | Total Exceptions | Number of times that an exception has occurred   |
-      +-------------+------------------+--------------------------------------------------+
-      |             | Message          | Message returned when the exception has occurred |
-      +-------------+------------------+--------------------------------------------------+
-      |             | Error Stack      | Error stack                                      |
-      +-------------+------------------+--------------------------------------------------+
-      | Log Version | Log Type         | Log type                                         |
-      +-------------+------------------+--------------------------------------------------+
-      |             | Version          | Log version                                      |
-      +-------------+------------------+--------------------------------------------------+
+      +-------------+------------------+------------------------------------------------+
+      | Metric Set  | Parameter        | Description                                    |
+      +=============+==================+================================================+
+      | Exception   | Class            | Exception class                                |
+      +-------------+------------------+------------------------------------------------+
+      |             | Exception Type   | Exception type                                 |
+      +-------------+------------------+------------------------------------------------+
+      |             | Log Type         | Exception log type                             |
+      +-------------+------------------+------------------------------------------------+
+      |             | Total Exceptions | Number of times that an exception has occurred |
+      +-------------+------------------+------------------------------------------------+
+      |             | Message          | Message returned when the exception occurred   |
+      +-------------+------------------+------------------------------------------------+
+      |             | Error Stack      | Error stack                                    |
+      +-------------+------------------+------------------------------------------------+
+      | Log Version | Log Type         | Log type                                       |
+      +-------------+------------------+------------------------------------------------+
+      |             | Version          | Log version                                    |
+      +-------------+------------------+------------------------------------------------+
 
    -  Click a number in blue in the **Total Exceptions** column to view the trend of the total exceptions in a specified period.
    -  Click the blue text in the **Message** column to view the message time and content.
@@ -78,5 +78,5 @@ Viewing Exception Logs
 #. Click |image3| in the upper right corner of the list and select the metric data you want to view.
 
 .. |image1| image:: /_static/images/en-us_image_0000001621004377.png
-.. |image2| image:: /_static/images/en-us_image_0000001277942217.png
-.. |image3| image:: /_static/images/en-us_image_0000001601313630.png
+.. |image2| image:: /_static/images/en-us_image_0000001914132622.png
+.. |image3| image:: /_static/images/en-us_image_0000001946109025.png

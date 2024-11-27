@@ -14,7 +14,7 @@ Configuring URL Tracing
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **Application Monitoring** > **Metrics**.
 
@@ -110,5 +110,5 @@ Transaction URLs are displayed in a list. By default, the system displays the in
       **Figure 7** Viewing the call chain
 
 .. |image1| image:: /_static/images/en-us_image_0000001570166220.png
-.. |image2| image:: /_static/images/en-us_image_0000001277858573.png
-.. |image3| image:: /_static/images/en-us_image_0000001233739060.png
+.. |image2| image:: /_static/images/en-us_image_0000001913954082.png
+.. |image3| image:: /_static/images/en-us_image_0000001914117986.png

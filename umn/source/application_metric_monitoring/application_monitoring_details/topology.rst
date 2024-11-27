@@ -12,7 +12,7 @@ Viewing the Topology
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **Application Monitoring** > **Metrics**.
 
@@ -49,6 +49,8 @@ Viewing the Topology
       :alt: **Figure 4** Showing all
 
       **Figure 4** Showing all
+
+#. Click **Reset Layout** to restore to the initial topology.
 
 #. Select the refresh mode and time. Default: **Manual Refresh**. In addition, **Automatic refresh in 1 minute**, **Automatic refresh in 5 minutes**, and **Automatic refresh in 15 minutes** are supported.
 

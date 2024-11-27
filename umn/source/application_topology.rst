@@ -17,11 +17,11 @@ Viewing the Topology of a Component
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **Application Monitoring** > **Metrics**.
 
-#. In the tree on the left, click |image2| next to the environment whose topology you want to view.
+#. In the tree on the left, click |image2| next to the target environment.
 
 #. Click the **Topology** tab to view the call and dependency relationships of the component.
 
@@ -55,4 +55,4 @@ Viewing the Global Topology
       **Figure 2** Viewing the global topology
 
 .. |image1| image:: /_static/images/en-us_image_0000001541828576.png
-.. |image2| image:: /_static/images/en-us_image_0000001233915476.png
+.. |image2| image:: /_static/images/en-us_image_0000001913972626.png

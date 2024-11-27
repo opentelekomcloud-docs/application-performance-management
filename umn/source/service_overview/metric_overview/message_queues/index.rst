@@ -5,8 +5,6 @@
 Message Queues
 ==============
 
-APM collects message queue metrics, covering KafkaConsumer, KafkaProducer, RabbitMqCommon, RabbitMqConsumer, RabbitMqProducer, RocketMqConsumer, and RocketMqProducer. This section describes the types, names, and meanings of message queue metrics collected by APM.
-
 -  :ref:`KafkaConsumer Monitoring <apm_01_0061>`
 -  :ref:`KafkaProducer Monitoring <apm_01_0062>`
 -  :ref:`RabbitMqCommon Monitoring <apm_01_0063>`

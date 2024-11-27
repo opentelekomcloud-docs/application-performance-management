@@ -9,7 +9,7 @@ On the **General Configuration** page, you can determine whether to collect data
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **System Management** > **General Configuration**.
 

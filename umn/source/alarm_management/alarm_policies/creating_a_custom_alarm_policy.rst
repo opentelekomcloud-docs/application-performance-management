@@ -12,7 +12,7 @@ Procedure
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **Application Monitoring** > **Metrics**.
 
@@ -65,5 +65,5 @@ After the alarm policy is created, perform the operations listed in :ref:`Table 
    +-------------------------------+------------------------------------------------------------------------------------------------------+
 
 .. |image1| image:: /_static/images/en-us_image_0000001542177914.png
-.. |image2| image:: /_static/images/en-us_image_0000001233580256.png
-.. |image3| image:: /_static/images/en-us_image_0000001233580532.png
+.. |image2| image:: /_static/images/en-us_image_0000001914229848.png
+.. |image3| image:: /_static/images/en-us_image_0000001946108901.png

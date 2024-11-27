@@ -5,8 +5,6 @@
 IoT
 ===
 
-APM collects IoT metrics, including CoapClient, CoapServer, MoquetteBroker, PahoPublisher, PahoSubscriber, and Paho. This section describes the types, names, and meanings of IoT metrics collected by APM.
-
 -  :ref:`CoapClient Monitoring <apm_01_0070>`
 -  :ref:`CoapServer Monitoring <apm_01_0071>`
 -  :ref:`MoquetteBroker Monitoring <apm_01_0072>`

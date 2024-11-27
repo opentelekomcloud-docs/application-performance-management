@@ -12,7 +12,7 @@ Viewing Collector Details
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **Configuration Management** > **Collection Center**.
 
@@ -21,7 +21,7 @@ Viewing Collector Details
 4. In the collector list, click **View Details** in the **Operation** column in the row that contains the target collector. The collector details page is displayed.
 
 
-   .. figure:: /_static/images/en-us_image_0000001628421530.png
+   .. figure:: /_static/images/en-us_image_0000001943060445.png
       :alt: **Figure 1** Viewing collector details
 
       **Figure 1** Viewing collector details
@@ -76,7 +76,7 @@ APM supports the following types of metric data:
    +-----------------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | DOUBLE                | Floating-point number  | 8-byte floating-point number                                                                                                                                   |
    +-----------------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | STRING                | Character string       | Maximum length: 1024 characters                                                                                                                                |
+   | STRING                | Character string       | Maximum length: 1,024 characters                                                                                                                               |
    +-----------------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | CLOB                  | Large character string | Maximum size: 1 MB                                                                                                                                             |
    +-----------------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+

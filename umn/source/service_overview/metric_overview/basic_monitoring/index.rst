@@ -5,8 +5,6 @@
 Basic Monitoring
 ================
 
-APM collects basic metrics, covering GC, JavaMethod, JVM, JVMInfo, Netty memory, and threads. This section describes the types, names, and meanings of basic metrics collected by APM.
-
 -  :ref:`GC Monitoring <apm_01_0027>`
 -  :ref:`JavaMethod <apm_01_0028>`
 -  :ref:`JVM Monitoring <apm_01_0029>`

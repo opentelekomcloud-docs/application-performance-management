@@ -5,12 +5,7 @@
 Metric Overview
 ===============
 
-A metric describes resource performance data or status. It consists of the metric type, name, and description, data type, and default aggregation mode.
-
-.. note::
-
-   For the default aggregation mode, **LAST** indicates the value of the latest metric collected. **SUM** indicates the sum of collected metrics. **MAX** indicates the maximum value of collected metrics. **AVG** indicates the average value of collected metrics.
-
+-  :ref:`Metric Overview <apm_01_0101>`
 -  :ref:`Exception <apm_01_0015>`
 -  :ref:`Basic Monitoring <apm_01_0016>`
 -  :ref:`Databases <apm_01_0017>`
@@ -28,6 +23,7 @@ A metric describes resource performance data or status. It consists of the metri
    :maxdepth: 1
    :hidden: 
 
+   metric_overview
    exception
    basic_monitoring/index
    databases/index

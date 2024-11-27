@@ -5,7 +5,7 @@
 Access Keys
 ===========
 
-Access Key ID (AK) and Secret Access Key (SK) are your long-term identity credentials. JavaAgents report data with an AK. AK is used together with SK to sign requests cryptographically, ensuring that the requests are secret, complete, and correct.
+Access Key ID (AK) and Secret Access Key (SK) are your long-term identity credentials. JavaAgents report data with an AK. An AK is used together with an SK to sign requests cryptographically, ensuring that the requests are secret, complete, and correct.
 
 Precautions
 -----------
@@ -37,14 +37,14 @@ Adding an Access Key
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **System Management** > **Access Keys**.
 
 #. On the page that is displayed, click **Add Access Key**.
 
 
-   .. figure:: /_static/images/en-us_image_0000001677146973.png
+   .. figure:: /_static/images/en-us_image_0000001943060937.png
       :alt: **Figure 1** Adding an AK/SK
 
       **Figure 1** Adding an AK/SK

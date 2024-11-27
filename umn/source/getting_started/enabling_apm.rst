@@ -13,7 +13,7 @@ Enabling APM
 
          If you log in to the APM console for the first time, you can choose the free or enterprise edition. For details, see :ref:`Edition Differences <apm_01_0006>`.
 
-   b. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+   b. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 2. Obtain the access key that is automatically created.
 
