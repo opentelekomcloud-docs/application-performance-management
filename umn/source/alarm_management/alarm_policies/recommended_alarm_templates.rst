@@ -11,7 +11,7 @@ Using Recommended Alarm Templates
 ---------------------------------
 
 #. Log in to the management console.
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 #. In the navigation pane, choose **Application Monitoring** > **Metrics**.
 #. In the tree on the left, click an application. The metric details page of the application is displayed.
 
@@ -42,7 +42,7 @@ Using Recommended Alarm Templates
 8. Click **Yes**. The copied alarm template is displayed on the template list.
 
 
-   .. figure:: /_static/images/en-us_image_0000001341053124.png
+   .. figure:: /_static/images/en-us_image_0000001908301892.png
       :alt: **Figure 4** Returning to the alarm template page
 
       **Figure 4** Returning to the alarm template page

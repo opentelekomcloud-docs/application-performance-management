@@ -12,7 +12,7 @@ Going to the Web Container Page
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **Application Monitoring** > **Metrics**.
 
@@ -30,27 +30,27 @@ Going to the Web Container Page
 
    .. table:: **Table 1** Tomcat monitoring parameters
 
-      +------------------------+---------------------+---------------------------------------------------------------------+
-      | Metric Set             | Metric              | Description                                                         |
-      +========================+=====================+=====================================================================+
-      | Tomcat port monitoring | name                | Port name                                                           |
-      +------------------------+---------------------+---------------------------------------------------------------------+
-      |                        | Current Threads     | Number of current threads on the port                               |
-      +------------------------+---------------------+---------------------------------------------------------------------+
-      |                        | Busy Threads        | Number of busy threads on the port at the time of collection        |
-      +------------------------+---------------------+---------------------------------------------------------------------+
-      |                        | Peak Busy Threads   | Maximum number of busy threads on the port in a collection period   |
-      +------------------------+---------------------+---------------------------------------------------------------------+
-      |                        | Max Threads         | Maximum number of threads on the port                               |
-      +------------------------+---------------------+---------------------------------------------------------------------+
-      |                        | Max Connections     | Maximum number of connections on the port                           |
-      +------------------------+---------------------+---------------------------------------------------------------------+
-      |                        | Current Connections | Number of current connections of the port at the time of collection |
-      +------------------------+---------------------+---------------------------------------------------------------------+
-      |                        | Peak Connections    | Maximum number of connections on the port in a collection period    |
-      +------------------------+---------------------+---------------------------------------------------------------------+
-      | Version                | Version             | Tomcat version                                                      |
-      +------------------------+---------------------+---------------------------------------------------------------------+
+      +------------------------+---------------------+----------------------------------------------------------------------+
+      | Metric Set             | Metric              | Description                                                          |
+      +========================+=====================+======================================================================+
+      | Tomcat port monitoring | name                | Port name.                                                           |
+      +------------------------+---------------------+----------------------------------------------------------------------+
+      |                        | Current Threads     | Number of current threads on the port.                               |
+      +------------------------+---------------------+----------------------------------------------------------------------+
+      |                        | Busy Threads        | Number of busy threads on the port at the time of collection.        |
+      +------------------------+---------------------+----------------------------------------------------------------------+
+      |                        | Peak Busy Threads   | Maximum number of busy threads on the port in a collection period.   |
+      +------------------------+---------------------+----------------------------------------------------------------------+
+      |                        | Max Threads         | Maximum number of threads on the port.                               |
+      +------------------------+---------------------+----------------------------------------------------------------------+
+      |                        | Max Connections     | Maximum number of connections on the port.                           |
+      +------------------------+---------------------+----------------------------------------------------------------------+
+      |                        | Current Connections | Number of current connections of the port at the time of collection. |
+      +------------------------+---------------------+----------------------------------------------------------------------+
+      |                        | Peak Connections    | Maximum number of connections on the port in a collection period.    |
+      +------------------------+---------------------+----------------------------------------------------------------------+
+      | Version                | Version             | Tomcat version.                                                      |
+      +------------------------+---------------------+----------------------------------------------------------------------+
 
    -  Click a number in blue (such as those in the **Current Threads**, **Busy Threads**, or **Peak Busy Threads** column) to view the trend graph of the target web container in the specified period.
    -  Click a version in the **Version** column to view details.
@@ -76,5 +76,5 @@ Going to the Web Container Page
 #. Click |image3| in the upper right corner of the list and select the metric data you want to view.
 
 .. |image1| image:: /_static/images/en-us_image_0000001620725989.png
-.. |image2| image:: /_static/images/en-us_image_0000001568524993.png
-.. |image3| image:: /_static/images/en-us_image_0000001601313634.png
+.. |image2| image:: /_static/images/en-us_image_0000001946011753.png
+.. |image3| image:: /_static/images/en-us_image_0000001946109001.png

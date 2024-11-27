@@ -29,7 +29,7 @@ Trace Search
 This function is used to search for span information, that is, the root event of a node. A trace can be found in multiple environments. For example, in the scenario where service A calls service B and then calls service C, the same trace may be found from services A, B, and C.
 
 #. Log in to the management console.
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 #. In the navigation pane, choose **Application Monitoring** > **Tracing**.
 #. Specify the following search criteria or add custom criteria to query traces.
 
@@ -62,7 +62,8 @@ This function is used to search for span information, that is, the root event of
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Trace ID              | If you specify this parameter, other search criteria become invalid and the search will be performed based on the trace ID you specify.                                                                                                                                                                                                                                                                                                                          | No                    |
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-      | Custom Parameter      | If you have configured **Key for Header Value Interception**, **Key for Parameter Value Interception**, and **Key for Cookie Value Interception** for URL monitoring, you can set **key=value** to search, for example, **httpMethod=POST**.                                                                                                                                                                                                                     | No                    |
+      | Custom Parameter      | -  Search for traces by call parameter. The format is **key=value**. Example: **exceptionMsg=failed**.                                                                                                                                                                                                                                                                                                                                                           | No                    |
+      |                       | -  Configure required parameters before you search for traces by custom parameter. For example, if you have configured **Key for Header Value Interception**, **Key for Parameter Value Interception**, and **Key for Cookie Value Interception** for URL monitoring, you can set **key=value** to search, for example, **httpMethod=POST**.                                                                                                                     |                       |
       |                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |                       |
       |                       | For details about how to configure URL monitoring, see :ref:`Configuring the URL Monitoring Item <apm_07_0015>`.                                                                                                                                                                                                                                                                                                                                                 |                       |
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
@@ -75,6 +76,12 @@ Viewing Trace Details
 ---------------------
 
 **Viewing Basic Information About the Trace Filtered Based on the Search Criteria**
+
+Only the traces of successful or failed requests can be displayed. The following uses **Successful Request** as an example.
+
+-  Click the green button next to **Successful Request**, only the traces of successful requests are displayed. The red button next to **Failed Request** becomes dimmed.
+-  If you click the green button again, both the traces of successful and failed requests are displayed. The red button is no longer dimmed.
+-  The green and red buttons cannot be dimmed at the same time.
 
 In the displayed trace list, click |image2| next to the target trace to view its basic information, as shown in the following figure.
 

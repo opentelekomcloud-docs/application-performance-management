@@ -5,8 +5,6 @@
 External Calls
 ==============
 
-APM collects external call metrics, covering ApacheHttpAsyncClient connection pool, ApacheHttpClient connection pool, CSEConsumer cluster, Dubbo client, and HttpClient. This section describes the types, names, and meanings of external call metrics collected by APM.
-
 -  :ref:`ApacheHttpAsyncClient Connection Pool <apm_01_0053>`
 -  :ref:`ApacheHttpClient Connection Pool <apm_01_0054>`
 -  :ref:`CSEConsumer Cluster Monitoring <apm_01_0055>`

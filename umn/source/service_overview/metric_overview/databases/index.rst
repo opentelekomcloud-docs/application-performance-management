@@ -5,8 +5,6 @@
 Databases
 =========
 
-APM collects metrics from the C3P0 connection pool, Cassandra, ClickHouse database, DBCP connection pool, Druid connection pool, EsRestClient, GaussDB database, HBase, Hikari connection pool, Jetcd, and MongoDB, MySQL database, ObsClient, Oracle database, and Postgresql database. This section describes the types, names, and meanings of database metrics collected by APM.
-
 -  :ref:`C3P0 Connection Pool Monitoring <apm_01_0033>`
 -  :ref:`Cassandra Monitoring <apm_01_0034>`
 -  :ref:`ClickHouse Database <apm_01_0035>`

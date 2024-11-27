@@ -22,17 +22,19 @@ Agents automatically discover collection plug-ins and instantiate collectors to 
 
 There are many types of collectors, which are hard to distinguish. The system backend groups collectors for easy data query.
 
+.. note::
+
+   The **Metrics** page displays only the involved monitoring item metrics of connected applications.
+
 Based on collector functions, monitoring items can be classified into:
 
+-  **Topology**: Displays the call relationships between services within a period. The statistics can be collected from the caller or the callee. You can also check the trend.
 -  **URL**: Monitors the external services that call the current application.
 -  **JVM**: Monitors basic system performance metrics.
 -  **Exception**: Monitors application exceptions.
 -  **Call**: Monitors the external services called by the current application.
 -  **SQL**: Monitors database access.
--  **Cache**: Monitors cache systems such as Redis and collects instruction-level metric data.
 -  **Web Container**: Monitors web containers such as Tomcat. Generally, the total number of threads, number of busy threads, and number of connections are collected to measure the overall system capacity.
--  **Message Queue**: Monitors message systems such as Kafka and RabbitMQ, including the sender and receiver. The processing function at the receive end can generate trace information.
--  **Communication Protocol**: Monitors communication protocols such as WebSocket.
 
 Monitoring Item Configuration
 -----------------------------

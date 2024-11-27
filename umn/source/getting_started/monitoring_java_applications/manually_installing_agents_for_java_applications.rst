@@ -12,6 +12,8 @@ Prerequisites
 
    You can run the **Telnet** command to check the network.
 
+   If the network is not connected, use a proxy instead.
+
 -  The AK/SK required for accessing JavaAgents have been obtained. To obtain them, log in to the APM console and choose **System Management** > **Access Keys** in the navigation pane.
 
 
@@ -35,7 +37,7 @@ Procedure
 
    **tar -xvf apm-javaagent-x.x.x.tar**
 
-3. Modify the **apm.config** file in the JavaAgent package. Configure **master.address** by referring to :ref:`Access Address (master.address) <apm_02_0008>`, and add the AK/SK to the configuration file, as shown in the following figure.
+3. Modify the **apm.config** file in the JavaAgent package. Configure **master.address** by referring to :ref:`Access Addresses <apm_02_0008>`, and add the AK/SK to the configuration file, as shown in the following figure.
 
 
    .. figure:: /_static/images/en-us_image_0000001196275562.png

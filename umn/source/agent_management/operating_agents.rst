@@ -5,18 +5,18 @@
 Operating Agents
 ================
 
-Agent Management allows you to view the deployment and running statuses of the Agents that are connected to APM, and to stop, start, or delete them.
+Agent Management allows you to check the deployment and running statuses of the Agents that are connected to APM, and to stop, start, or delete them.
 
-Viewing Agents
---------------
+Checking Agents
+---------------
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **Application Monitoring** > **Agent Management**.
 
-#. View the Agent list.
+#. Check the Agent list.
 
    a. In the upper left corner of the page, select a target region and application.
    b. Set the search criteria and click |image2| in the search box in the upper right corner of the page to filter Agents.
@@ -44,7 +44,7 @@ Batch Operations
 
 #. In the navigation pane, choose **Application Monitoring** > **Agent Management**.
 
-#. Click **Operation**.
+#. Select target objects and click **Operation**.
 
 
    .. figure:: /_static/images/en-us_image_0000001628418878.png
@@ -52,7 +52,7 @@ Batch Operations
 
       **Figure 2** Batch operations
 
-#. Select the desired hosts, and click **Disable**, **Enable**, or **Delete Agent** to disable, enable, or delete the Agents for them.
+#. Select **Disable Agent**, **Enable Agent**, or **Delete Agent**.
 
 
    .. figure:: /_static/images/en-us_image_0000001628420042.png

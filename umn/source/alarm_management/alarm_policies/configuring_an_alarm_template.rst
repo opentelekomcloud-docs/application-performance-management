@@ -11,7 +11,7 @@ Procedure
 ---------
 
 #. Log in to the management console.
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 #. In the navigation pane, choose **Application Monitoring** > **Metrics**.
 #. In the tree on the left, click an application. The metric details page of the application is displayed.
 

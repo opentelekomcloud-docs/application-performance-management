@@ -15,6 +15,7 @@ Service Overview
 -  :ref:`Privacy and Sensitive Information Protection Statement <apm_01_0008>`
 -  :ref:`Data Collection <apm_01_0009>`
 -  :ref:`Usage Restrictions <apm_01_0010>`
+-  :ref:`JavaAgent Updates <apm_01_0093>`
 
 .. toctree::
    :maxdepth: 1
@@ -30,3 +31,4 @@ Service Overview
    privacy_and_sensitive_information_protection_statement
    data_collection
    usage_restrictions/index
+   javaagent_updates

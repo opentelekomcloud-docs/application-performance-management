@@ -14,7 +14,7 @@ Going to the SQL Page
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **Application Monitoring** > **Metrics**.
 
@@ -65,43 +65,43 @@ APM can monitor MySQL databases by SQL. For details about the metrics, see :ref:
 
 .. table:: **Table 1** SQL summary parameters
 
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   | Metric Set     | Metric          | Description                                                           |
-   +================+=================+=======================================================================+
-   | SQL monitoring | sql             | Unique ID of the SQL statement, which is used for alarm configuration |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | SQL Statement   | SQL statement                                                         |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | Calls           | Number of times that the SQL statement is called                      |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | Avg RT (ms)     | Average response time (ms)                                            |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | Errors          | Number of errors that the SQL statement encounters                    |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | Rows Read       | Number of read rows of the SQL statement                              |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | Rows Updated    | Number of updated rows of the SQL statement                           |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | Max Concurrency | Maximum concurrency of the SQL statement                              |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | Max RT (ms)     | Maximum response time of the SQL statement                            |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | 0 ms-10 ms      | Number of requests with 0 ms-10 ms response time                      |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | 10 ms-100 ms    | Number of requests with 10 ms-100 ms response time                    |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | 100 ms-200 ms   | Number of requests with 100 ms-200 ms response time                   |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | 200 ms-1s       | Number of requests with 200 ms-1s response time                       |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | 1s-10s          | Number of requests with 1s-10s response time                          |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | 10s-n           | Number of requests with response time longer than 10s                 |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | Slowest Trace   | ID of the slowest trace in a collection period                        |
-   +----------------+-----------------+-----------------------------------------------------------------------+
-   |                | Error Trace     | ID of the trace that encounters an error in a collection period       |
-   +----------------+-----------------+-----------------------------------------------------------------------+
+   +----------------+-----------------+------------------------------------------------------------------------+
+   | Metric Set     | Metric          | Description                                                            |
+   +================+=================+========================================================================+
+   | SQL monitoring | sql             | Unique ID of the SQL statement, which is used for alarm configuration. |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | SQL Statement   | SQL statement.                                                         |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | Calls           | Number of times that the SQL statement is called.                      |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | Avg RT (ms)     | Average response time (ms).                                            |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | Errors          | Number of errors that the SQL statement encounters.                    |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | Rows Read       | Number of read rows of the SQL statement.                              |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | Rows Updated    | Number of updated rows of the SQL statement.                           |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | Max Concurrency | Maximum concurrency of the SQL statement.                              |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | Max RT (ms)     | Maximum response time of the SQL statement.                            |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | 0 ms-10 ms      | Number of requests with 0 ms-10 ms response time.                      |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | 10 ms-100 ms    | Number of requests with 10 ms-100 ms response time.                    |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | 100 ms-200 ms   | Number of requests with 100 ms-200 ms response time.                   |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | 200 ms-1s       | Number of requests with 200 ms-1s response time.                       |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | 1s-10s          | Number of requests with 1s-10s response time.                          |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | 10s-n           | Number of requests with response time longer than 10s.                 |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | Slowest Trace   | ID of the slowest trace in a collection period.                        |
+   +----------------+-----------------+------------------------------------------------------------------------+
+   |                | Error Trace     | ID of the trace that encounters an error in a collection period.       |
+   +----------------+-----------------+------------------------------------------------------------------------+
 
 -  Click an SQL statement to view details.
 -  Click a number in blue (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
@@ -121,39 +121,39 @@ APM can summarize MySQL database metrics by database. For details about the metr
 
 .. table:: **Table 2** Database summary parameters
 
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   | Metric Set           | Metric                | Description                                                   |
-   +======================+=======================+===============================================================+
-   | Database connections | db                    | Database name                                                 |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | Connections Created   | Number of connections created by the database                 |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | Connections Destroyed | Number of the database's connections that have been destroyed |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | Avg RT (ms)           | Average response time (ms)                                    |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | Calls                 | Number of times that the database is called                   |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | Errors                | Number of errors that the database encounters                 |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | Rows Read             | Number of rows read from the database                         |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | Rows Updated          | Number of rows updated in the database                        |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | Max RT (ms)           | Maximum response time of the database                         |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | 0 ms-10 ms            | Number of requests with 0 ms-10 ms response time              |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | 10 ms-100 ms          | Number of requests with 10 ms-100 ms response time            |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | 100 ms-200 ms         | Number of requests with 100 ms-200 ms response time           |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | 200 ms-1s             | Number of requests with 200 ms-1s response time               |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | 1s-10s                | Number of requests with 1s-10s response time                  |
-   +----------------------+-----------------------+---------------------------------------------------------------+
-   |                      | 10s-n                 | Number of requests with response time longer than 10s         |
-   +----------------------+-----------------------+---------------------------------------------------------------+
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   | Metric Set           | Metric                | Description                                                    |
+   +======================+=======================+================================================================+
+   | Database connections | db                    | Database name.                                                 |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | Connections Created   | Number of connections created by the database.                 |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | Connections Destroyed | Number of the database's connections that have been destroyed. |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | Avg RT (ms)           | Average response time (ms).                                    |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | Calls                 | Number of times that the database is called.                   |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | Errors                | Number of errors that the database encounters.                 |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | Rows Read             | Number of rows read from the database.                         |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | Rows Updated          | Number of rows updated in the database.                        |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | Max RT (ms)           | Maximum response time of the database.                         |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | 0 ms-10 ms            | Number of requests with 0 ms-10 ms response time.              |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | 10 ms-100 ms          | Number of requests with 10 ms-100 ms response time.            |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | 100 ms-200 ms         | Number of requests with 100 ms-200 ms response time.           |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | 200 ms-1s             | Number of requests with 200 ms-1s response time.               |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | 1s-10s                | Number of requests with 1s-10s response time.                  |
+   +----------------------+-----------------------+----------------------------------------------------------------+
+   |                      | 10s-n                 | Number of requests with response time longer than 10s.         |
+   +----------------------+-----------------------+----------------------------------------------------------------+
 
 Click a number in blue (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
 
@@ -171,16 +171,16 @@ On the **Exception** tab page, view exception statistics about SQL calls. For de
 
 .. table:: **Table 3** Exception parameters
 
-   ========== ============= ==========================================
+   ========== ============= ===========================================
    Metric Set Metric        Description
-   ========== ============= ==========================================
-   Exception  causeType     Exception class
-   \          exceptionType Exception type
-   \          Count         Number of exceptions
-   \          SQL           SQL statement that encounters an exception
-   \          Error Stack   Exception stack information
-   \          Message       Error message
-   ========== ============= ==========================================
+   ========== ============= ===========================================
+   Exception  causeType     Exception class.
+   \          exceptionType Exception type.
+   \          Count         Number of exceptions.
+   \          SQL           SQL statement that encounters an exception.
+   \          Error Stack   Exception stack information.
+   \          Message       Error message.
+   ========== ============= ===========================================
 
 **Overview**
 
@@ -196,15 +196,15 @@ On the **Overview** tab page, view the call trend of the selected instance. For 
 
 .. table:: **Table 4** Overview parameters
 
-   ========== ============ ======================================
+   ========== ============ =======================================
    Metric Set Metric       Description
-   ========== ============ ======================================
-   Overview   Calls        Total number of calls
-   \          Rows Read    Total number of read rows
-   \          Avg RT (ms)  Average response time (ms)
-   \          Errors       Total number of errors
-   \          Rows Updated Number of rows updated in the database
-   ========== ============ ======================================
+   ========== ============ =======================================
+   Overview   Calls        Total number of calls.
+   \          Rows Read    Total number of read rows.
+   \          Avg RT (ms)  Average response time (ms).
+   \          Errors       Total number of errors.
+   \          Rows Updated Number of rows updated in the database.
+   ========== ============ =======================================
 
 **Info**
 
@@ -228,91 +228,91 @@ The Druid connection pool monitoring system collects data sources, connection de
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
    | Metric Set               | Metric                               | Description                                                                                                  |
    +==========================+======================================+==============================================================================================================+
-   | Data source              | Connection Address                   | Connection address                                                                                           |
+   | Data source              | Connection Address                   | Connection address.                                                                                          |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Driver                               | Driver name                                                                                                  |
+   |                          | Driver                               | Driver name.                                                                                                 |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Initialized Connections              | Number of initialized connections                                                                            |
+   |                          | Initialized Connections              | Number of initialized connections.                                                                           |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Min Idle Connections in Pool         | Minimum of idle connections in a pool                                                                        |
+   |                          | Min Idle Connections in Pool         | Minimum of idle connections in a pool.                                                                       |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Max Idle Connections in Pool         | Maximum number of idle connections in a pool                                                                 |
+   |                          | Max Idle Connections in Pool         | Maximum number of idle connections in a pool.                                                                |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Max Connections in Pool              | Maximum number of connections in a pool                                                                      |
+   |                          | Max Connections in Pool              | Maximum number of connections in a pool.                                                                     |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Idle Connections                     | Number of idle connections                                                                                   |
+   |                          | Idle Connections                     | Number of idle connections.                                                                                  |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Max Idle Connections                 | Maximum number of idle connections                                                                           |
+   |                          | Max Idle Connections                 | Maximum number of idle connections.                                                                          |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Active Connections                   | Number of active connections                                                                                 |
+   |                          | Active Connections                   | Number of active connections.                                                                                |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Max Active Connections               | Maximum number of active connections                                                                         |
+   |                          | Max Active Connections               | Maximum number of active connections.                                                                        |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Waiting Threads                      | Number of waiting threads                                                                                    |
+   |                          | Waiting Threads                      | Number of waiting threads.                                                                                   |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Max Waiting Threads                  | Maximum number of waiting threads                                                                            |
+   |                          | Max Waiting Threads                  | Maximum number of waiting threads.                                                                           |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Upper Limit for Waiting Threads      | Upper limit for waiting threads                                                                              |
+   |                          | Upper Limit for Waiting Threads      | Upper limit for waiting threads.                                                                             |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Total Connections                    | Total number of connections                                                                                  |
+   |                          | Total Connections                    | Total number of connections.                                                                                 |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | Connection details       | Connection Address                   | Connection address                                                                                           |
+   | Connection details       | Connection Address                   | Connection address.                                                                                          |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Calls                                | Number of calls                                                                                              |
+   |                          | Calls                                | Number of calls.                                                                                             |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Total RT (ms)                        | Total response time (ms)                                                                                     |
+   |                          | Total RT (ms)                        | Total response time (ms).                                                                                    |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Avg RT (ms)                          | Average response time (ms)                                                                                   |
+   |                          | Avg RT (ms)                          | Average response time (ms).                                                                                  |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Errors                               | Number of errors                                                                                             |
+   |                          | Errors                               | Number of errors.                                                                                            |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Max Concurrency                      | Maximum number of concurrent connections                                                                     |
+   |                          | Max Concurrency                      | Maximum number of concurrent connections.                                                                    |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Max RT (ms)                          | Maximum response time                                                                                        |
+   |                          | Max RT (ms)                          | Maximum response time.                                                                                       |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | 0 ms-10 ms                           | Number of requests with 0 ms-10 ms response time                                                             |
+   |                          | 0 ms-10 ms                           | Number of requests with 0 ms-10 ms response time.                                                            |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | 10 ms-100 ms                         | Number of requests with 10 ms-100 ms response time                                                           |
+   |                          | 10 ms-100 ms                         | Number of requests with 10 ms-100 ms response time.                                                          |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | 100 ms-500 ms                        | Number of requests with 100 ms-500 ms response time                                                          |
+   |                          | 100 ms-500 ms                        | Number of requests with 100 ms-500 ms response time.                                                         |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | 500 ms-1s                            | Number of requests with 500 ms-1s response time                                                              |
+   |                          | 500 ms-1s                            | Number of requests with 500 ms-1s response time.                                                             |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | 1s-10s                               | Number of requests with 1s-10s response time                                                                 |
+   |                          | 1s-10s                               | Number of requests with 1s-10s response time.                                                                |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | 10s-n                                | Number of requests with response time longer than 10s                                                        |
+   |                          | 10s-n                                | Number of requests with response time longer than 10s.                                                       |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | Additional configuration | Connection Address                   | Connection address                                                                                           |
+   | Additional configuration | Connection Address                   | Connection address.                                                                                          |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Max Wait (ms)                        | Maximum waiting time                                                                                         |
+   |                          | Max Wait (ms)                        | Maximum waiting time.                                                                                        |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Test on Borrow                       | Whether to verify the validity of a connection before obtaining it from the connection pool                  |
+   |                          | Test on Borrow                       | Whether to verify the validity of a connection before obtaining it from the connection pool.                 |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Test on Return                       | Whether to verify the validity of a connection when it is returned                                           |
+   |                          | Test on Return                       | Whether to verify the validity of a connection when it is returned.                                          |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
    |                          | Test While Idle                      | Whether to verify the validity of an idle connection when an application applies for it from the pool        |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Remove Abandoned                     | Whether to automatically reclaim timeout connections                                                         |
+   |                          | Remove Abandoned                     | Whether to automatically reclaim timeout connections.                                                        |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
    |                          | Remove Abandoned TimeoutMillis (ms)  | If a connection in the pool is not returned within the specified duration, the connection will be reclaimed. |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Remove Abandoned Count               | Number of timeout connection reclaims                                                                        |
+   |                          | Remove Abandoned Count               | Number of timeout connection reclaims.                                                                       |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Min Evictable Idle TimeMillis (ms)   | Minimum idle time of a connection in the pool                                                                |
+   |                          | Min Evictable Idle TimeMillis (ms)   | Minimum idle time of a connection in the pool.                                                               |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Time Between EvictionRunsMillis (ms) | Interval for checking the validity of idle connections                                                       |
+   |                          | Time Between EvictionRunsMillis (ms) | Interval for checking the validity of idle connections.                                                      |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | Exception                | causeType                            | Exception class                                                                                              |
+   | Exception                | causeType                            | Exception class.                                                                                             |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Exception Type                       | Exception type                                                                                               |
+   |                          | Exception Type                       | Exception type.                                                                                              |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Count                                | Number of times the exception has occurred                                                                   |
+   |                          | Count                                | Number of times the exception occurred.                                                                      |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Error Message                        | Message returned when the exception has occurred                                                             |
+   |                          | Error Message                        | Message returned when the exception occurred.                                                                |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   |                          | Error Stack                          | Exception stack information                                                                                  |
+   |                          | Error Stack                          | Exception stack information.                                                                                 |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | Version                  | Driver Version                       | Driver version                                                                                               |
+   | Version                  | Driver Version                       | Driver version.                                                                                              |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
 
 -  Click a number in blue (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
@@ -325,7 +325,7 @@ The Druid connection pool monitoring system collects data sources, connection de
    **Figure 9** Viewing Druid connection pool monitoring data
 
 .. |image1| image:: /_static/images/en-us_image_0000001569846696.png
-.. |image2| image:: /_static/images/en-us_image_0000001277862689.png
-.. |image3| image:: /_static/images/en-us_image_0000001650953141.png
+.. |image2| image:: /_static/images/en-us_image_0000001914132610.png
+.. |image3| image:: /_static/images/en-us_image_0000001914389860.png
 .. |image4| image:: /_static/images/en-us_image_0000001278062153.png
 .. |image5| image:: /_static/images/en-us_image_0000001471158206.png

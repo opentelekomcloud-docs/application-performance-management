@@ -5,7 +5,7 @@
 Functions
 =========
 
-APM manages cloud application performance. It provides application metric monitoring, tracing, application topology, URL tracing, intelligent alarm reporting, and tag/Agent/configuration/system management.
+APM manages cloud application performance. It provides application metric monitoring, tracing, application topology, URL tracing, intelligent alarm reporting, tag/Agent/configuration/system management, and application monitoring.
 
 Application Metric Monitoring
 -----------------------------

@@ -13,7 +13,7 @@ The **Applications** page displays information such as components, environments,
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane on the left, choose **Application Monitoring** > **Applications**.
 

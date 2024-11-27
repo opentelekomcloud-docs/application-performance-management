@@ -16,7 +16,7 @@ Configuring a Monitoring Item
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **Application Monitoring** > **Metrics**.
 
@@ -49,7 +49,7 @@ Enabling or Disabling a Monitoring Item
 
 #. Log in to the management console.
 
-#. Click |image3| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image3| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation pane, choose **Application Monitoring** > **Metrics**.
 
@@ -66,6 +66,6 @@ Enabling or Disabling a Monitoring Item
 #. Locate the row that contains the target monitoring item and enable or disable it.
 
 .. |image1| image:: /_static/images/en-us_image_0000001541509380.png
-.. |image2| image:: /_static/images/en-us_image_0000001277942533.png
+.. |image2| image:: /_static/images/en-us_image_0000001914389824.png
 .. |image3| image:: /_static/images/en-us_image_0000001541988552.png
 .. |image4| image:: /_static/images/en-us_image_0000001278182205.png

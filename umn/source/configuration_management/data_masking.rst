@@ -16,12 +16,12 @@ Querying a Data Masking Configuration
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation tree on the left, choose **Configuration Management** > **Data Masking** and select your target node. The configuration information is displayed.
 
 
-   .. figure:: /_static/images/en-us_image_0000001628583158.png
+   .. figure:: /_static/images/en-us_image_0000001908141568.png
       :alt: **Figure 1** Viewing a data masking configuration
 
       **Figure 1** Viewing a data masking configuration
@@ -29,7 +29,7 @@ Querying a Data Masking Configuration
 #. In the search box, enter a configuration name keyword and click the search icon or press **Enter**.
 
 
-   .. figure:: /_static/images/en-us_image_0000001676903929.png
+   .. figure:: /_static/images/en-us_image_0000001908141536.png
       :alt: **Figure 2** Searching for a configuration
 
       **Figure 2** Searching for a configuration
@@ -40,7 +40,7 @@ Adding a Data Masking Configuration
 #. In the navigation tree on the left, choose **Configuration Management** > **Data Masking** and select your target node.
 
 
-   .. figure:: /_static/images/en-us_image_0000001677144233.png
+   .. figure:: /_static/images/en-us_image_0000001908301536.png
       :alt: **Figure 3** Configuring data masking
 
       **Figure 3** Configuring data masking
@@ -48,7 +48,7 @@ Adding a Data Masking Configuration
 #. Click **Add** and set configuration parameters.
 
 
-   .. figure:: /_static/images/en-us_image_0000001677024693.png
+   .. figure:: /_static/images/en-us_image_0000001908301484.png
       :alt: **Figure 4** Adding a configuration
 
       **Figure 4** Adding a configuration
@@ -80,7 +80,7 @@ Modifying a Data Masking Configuration
 #. Click **Modify** in the **Operation** column to modify the configuration.
 
 
-   .. figure:: /_static/images/en-us_image_0000001677025385.png
+   .. figure:: /_static/images/en-us_image_0000001908301500.png
       :alt: **Figure 5** Modifying the data masking configuration
 
       **Figure 5** Modifying the data masking configuration
@@ -95,7 +95,7 @@ Deleting Data Masking Configurations
 #. Click **Delete** in the **Operation** column. In the displayed dialog box, click **Yes** to delete the configuration.
 
 
-   .. figure:: /_static/images/en-us_image_0000001676906113.png
+   .. figure:: /_static/images/en-us_image_0000001908141492.png
       :alt: **Figure 6** Deleting the data masking configuration
 
       **Figure 6** Deleting the data masking configuration
@@ -103,9 +103,9 @@ Deleting Data Masking Configurations
 #. Select multiple data masking configurations and click **Batch Delete** above the list. In the displayed dialog box, click **Yes** to delete multiple data masking configurations at a time.
 
 
-   .. figure:: /_static/images/en-us_image_0000001677146653.png
+   .. figure:: /_static/images/en-us_image_0000001943060789.png
       :alt: **Figure 7** Deleting configurations in batches
 
       **Figure 7** Deleting configurations in batches
 
-.. |image1| image:: /_static/images/en-us_image_0000001542078588.png
+.. |image1| image:: /_static/images/en-us_image_0000001943060829.png

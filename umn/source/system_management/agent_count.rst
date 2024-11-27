@@ -9,7 +9,7 @@ APM can count the Agents used by tenants. You can view the number of Agents by t
 
 #. Log in to the management console.
 
-#. Click |image1| on the left and choose **Management & Deployment** > **Application Performance Management**.
+#. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 
 #. In the navigation tree, choose **System Management** > **Agent Count**.
 
