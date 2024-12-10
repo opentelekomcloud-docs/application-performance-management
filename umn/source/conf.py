@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'apm-umn.tex',
-     u'Application Performance Management - User Guide',
+    u'Application Performance Management - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
 
