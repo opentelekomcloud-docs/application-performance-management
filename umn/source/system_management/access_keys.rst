@@ -73,4 +73,4 @@ Each access key is enabled by default. To disable it, do as follows:
 
    To enable it again, click **Enable** in the row that contains the access key. On the page that is displayed, click **Yes**.
 
-.. |image1| image:: /_static/images/en-us_image_0000001542397796.png
+.. |image1| image:: /_static/images/en-us_image_0000001908301692.png

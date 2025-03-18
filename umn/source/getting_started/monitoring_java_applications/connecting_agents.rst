@@ -33,7 +33,7 @@ Procedure
 
       **Figure 1** Connecting an application
 
-#. Select a region and application.
+#. Select a region and application. Click **Create Application**. In the dialog box that is displayed, create an application by referring to :ref:`Creating an Application <apm_07_0151>`.
 
 
    .. figure:: /_static/images/en-us_image_0000001627467410.png
@@ -41,7 +41,7 @@ Procedure
 
       **Figure 2** Basic information
 
-#. Select **Java** for **Backend Language**.
+#. Select **Java** for **Backend language**.
 
 
    .. figure:: /_static/images/en-us_image_0000001881092662.png
@@ -50,6 +50,8 @@ Procedure
       **Figure 3** Access mode
 
 #. Select **Enhanced Agent** for **Code Source**.
+
+#. Use a remote login tool, such as PuTTY, to log in to the Linux host where the Agent is to be installed and run related commands as the **root** user.
 
 #. Select an access mode based on the application type and access data by following the instructions.
 

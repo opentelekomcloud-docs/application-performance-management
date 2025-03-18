@@ -38,12 +38,6 @@ Going to the URL Page
 
    Options: **Last 20 minutes**, **Last hour**, **Last 3 hours**, **Last 6 hours**, **Last day**, **Today**, **Yesterday**, **Last week**, **Last month**, or **Custom**.
 
-
-   .. figure:: /_static/images/en-us_image_0000001651751305.png
-      :alt: **Figure 3** Selecting a time range
-
-      **Figure 3** Selecting a time range
-
 #. Click |image3| in the upper right corner of the list and select the metric data you want to view.
 
 Viewing URL Monitoring Data
@@ -55,9 +49,9 @@ For common URL calls, the system collects the metrics of each URL. For details a
 
 
 .. figure:: /_static/images/en-us_image_0000001675906817.png
-   :alt: **Figure 4** URL summary under URL monitoring
+   :alt: **Figure 3** URL summary under URL monitoring
 
-   **Figure 4** URL summary under URL monitoring
+   **Figure 3** URL summary under URL monitoring
 
 .. _apm_07_0006__en-us_topic_0000001262244099_table17761201314410:
 
@@ -105,9 +99,9 @@ APM supports status code-based summary. The system collects the metrics of each 
 
 
 .. figure:: /_static/images/en-us_image_0000001627227794.png
-   :alt: **Figure 5** Status code summary under URL monitoring
+   :alt: **Figure 4** Status code summary under URL monitoring
 
-   **Figure 5** Status code summary under URL monitoring
+   **Figure 4** Status code summary under URL monitoring
 
 .. _apm_07_0006__en-us_topic_0000001262244099_table12423123513019:
 
@@ -133,9 +127,9 @@ APM can summarize metrics by cluster. For details about the metrics, see :ref:`T
 
 
 .. figure:: /_static/images/en-us_image_0000001627388978.png
-   :alt: **Figure 6** Cluster summary under URL monitoring
+   :alt: **Figure 5** Cluster summary under URL monitoring
 
-   **Figure 6** Cluster summary under URL monitoring
+   **Figure 5** Cluster summary under URL monitoring
 
 .. _apm_07_0006__en-us_topic_0000001262244099_table184262985614:
 
@@ -161,9 +155,9 @@ View the metric trend of the selected instance on the **Overview** tab page. For
 
 
 .. figure:: /_static/images/en-us_image_0000001676029453.png
-   :alt: **Figure 7** Overview under URL monitoring
+   :alt: **Figure 6** Overview under URL monitoring
 
-   **Figure 7** Overview under URL monitoring
+   **Figure 6** Overview under URL monitoring
 
 .. _apm_07_0006__en-us_topic_0000001262244099_table19880607475:
 

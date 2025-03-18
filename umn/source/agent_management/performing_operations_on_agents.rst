@@ -2,13 +2,13 @@
 
 .. _apm_07_0028:
 
-Operating Agents
-================
+Performing Operations on Agents
+===============================
 
 Agent Management allows you to check the deployment and running statuses of the Agents that are connected to APM, and to stop, start, or delete them.
 
-Checking Agents
----------------
+Viewing Agents
+--------------
 
 #. Log in to the management console.
 
@@ -16,7 +16,7 @@ Checking Agents
 
 #. In the navigation pane, choose **Application Monitoring** > **Agent Management**.
 
-#. Check the Agent list.
+#. On the Agent management page, view the Agent list.
 
    a. In the upper left corner of the page, select a target region and application.
    b. Set the search criteria and click |image2| in the search box in the upper right corner of the page to filter Agents.

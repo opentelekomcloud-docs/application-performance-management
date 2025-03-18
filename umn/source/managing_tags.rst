@@ -9,13 +9,9 @@ You can add tags for different environments and applications for easy management
 
 Tag management covers tags and global tags.
 
-A tag is used to set a collector corresponding to the monitoring item under one or more environments of an application.
-
-A global tag is used to set a collector corresponding to the monitoring item under all environments of an application.
-
-.. note::
-
-   Priority: Global tag collector configuration > Tag collector configuration > Collector configuration of a monitoring item under an environment
+-  A tag is used to set a collector corresponding to the monitoring item under one or more environments of an application.
+-  A global tag is used to set a collector corresponding to the monitoring item under all environments of an application.
+-  Priority: Global tag collector configuration > Tag collector configuration > Collector configuration of a monitoring item under an environment
 
 Adding a Tag
 ------------

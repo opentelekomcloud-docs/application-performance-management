@@ -32,7 +32,7 @@ Process Flow
 
    **Figure 1** Process for granting APM permissions
 
-#. .. _apm_07_0038__en-us_topic_0000001088190833_li1682215710191:
+#. .. _apm_07_0038__en-us_topic_0000001088190833_li578363074615:
 
    `Creating a User Group and Assigning Permissions <https://docs.otc.t-systems.com/identity-access-management/umn/user_guide/user_groups_and_authorization/creating_a_user_group_and_assigning_permissions.html#en-us-topic-0046611269>`__
 
@@ -40,7 +40,7 @@ Process Flow
 
 #. `Creating a User <https://docs.otc.t-systems.com/identity-access-management/umn/user_guide/iam_users/creating_a_user.html#en-us-topic-0046611303>`__
 
-   Create a user on the IAM console and add the user to the group created in :ref:`1 <apm_07_0038__en-us_topic_0000001088190833_li1682215710191>`.
+   Create a user on the IAM console and add the user to the group created in :ref:`1 <apm_07_0038__en-us_topic_0000001088190833_li578363074615>`.
 
 #. `Logging In as an IAM User <https://docs.otc.t-systems.com/identity-access-management/umn/user_guide/iam_users/logging_in_as_an_iam_user.html>`__ and Verifying Permissions
 

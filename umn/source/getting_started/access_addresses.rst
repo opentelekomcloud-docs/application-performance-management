@@ -5,7 +5,9 @@
 Access Addresses
 ================
 
-.. table:: **Table 1** Access addresses of Enhanced Agents
+.. _apm_02_0008__en-us_topic_0000001266768045_table201446686:
+
+.. table:: **Table 1** Access addresses of enhanced Agents
 
    ====== ===========================
    Region Access Address

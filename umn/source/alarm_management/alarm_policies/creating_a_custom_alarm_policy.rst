@@ -41,9 +41,9 @@ Create an Alarm Policy Based on a Template
 
 
    .. figure:: /_static/images/en-us_image_0000001741295582.png
-      :alt: **Figure 2** Create an alarm policy based on a template
+      :alt: **Figure 2** Creating an alarm policy based on a template
 
-      **Figure 2** Create an alarm policy based on a template
+      **Figure 2** Creating an alarm policy based on a template
 
 More Operations
 ---------------

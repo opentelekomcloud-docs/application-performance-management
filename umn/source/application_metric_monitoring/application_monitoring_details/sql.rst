@@ -324,8 +324,74 @@ The Druid connection pool monitoring system collects data sources, connection de
 
    **Figure 9** Viewing Druid connection pool monitoring data
 
+Viewing Hikari Connection Pool Monitoring Data
+----------------------------------------------
+
+The Hikari connection pool monitoring system collects the pool details, connection details, and exception information. You can click |image6| in the upper right corner of the list to customize the columns you want to view. For details about the metrics, see :ref:`Table 6 <apm_07_0010__en-us_topic_0000001217564316_table737216573912>`.
+
+.. _apm_07_0010__en-us_topic_0000001217564316_table737216573912:
+
+.. table:: **Table 6** Hikari connection pool parameters
+
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   | Metric Set              | Metric                      | Description                                            |
+   +=========================+=============================+========================================================+
+   | Connection pool details | Pool Address                | Connection address.                                    |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Driver Name                 | Driver name.                                           |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Max Pool Size               | Maximum number of connections that are allowed.        |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Total Connections           | Total number of current connections.                   |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Active Connections          | Number of active connections.                          |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Idle Connections            | Number of idle connections.                            |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Threads Awaiting Connection | Number of waiting connections.                         |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   | Connection details      | Connection Address          | Connection address.                                    |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Calls                       | Number of calls.                                       |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Total RT (ms)               | Total response time (ms).                              |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Avg RT (ms)                 | Average response time (ms).                            |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Errors                      | Number of errors.                                      |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Max Concurrency             | Maximum number of concurrent connections.              |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Max RT (ms)                 | Maximum response time.                                 |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | 0 ms-10 ms                  | Number of requests with 0 ms-10 ms response time.      |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | 10 ms-100 ms                | Number of requests with 10 ms-100 ms response time.    |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | 100 ms-500 ms               | Number of requests with 100 ms-500 ms response time.   |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | 500 ms-1s                   | Number of requests with 500 ms-1s response time.       |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | 1s-10s                      | Number of requests with 1s-10s response time.          |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | 10s-n                       | Number of requests with response time longer than 10s. |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   | Exception               | causeType                   | Exception class.                                       |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Exception Type              | Exception type.                                        |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Count                       | Number of times the exception occurred.                |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Error Message               | Message returned when the exception occurred.          |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Error Stack                 | Exception stack information.                           |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+
+-  Click a number in blue (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
+
 .. |image1| image:: /_static/images/en-us_image_0000001569846696.png
 .. |image2| image:: /_static/images/en-us_image_0000001914132610.png
 .. |image3| image:: /_static/images/en-us_image_0000001914389860.png
 .. |image4| image:: /_static/images/en-us_image_0000001278062153.png
 .. |image5| image:: /_static/images/en-us_image_0000001471158206.png
+.. |image6| image:: /_static/images/en-us_image_0000001914229948.png
