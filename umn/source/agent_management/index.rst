@@ -6,7 +6,7 @@ Agent Management
 ================
 
 -  :ref:`Introduction <apm_07_0213>`
--  :ref:`Operating Agents <apm_07_0028>`
+-  :ref:`Performing Operations on Agents <apm_07_0028>`
 -  :ref:`Upgrading Agents <apm_07_0029>`
 
 .. toctree::
@@ -14,5 +14,5 @@ Agent Management
    :hidden: 
 
    introduction
-   operating_agents
+   performing_operations_on_agents
    upgrading_agents

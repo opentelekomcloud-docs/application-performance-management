@@ -25,19 +25,21 @@ Prerequisites
 Procedure
 ---------
 
-#. Download **apm-javaagent** to any directory of your host. For the download address, see :ref:`JavaAgent Download Addresses <apm_02_0007>`.
+#. Use a remote login tool, such as PuTTY, to log in to the Linux host where the Agent is to be installed and run related commands as the **root** user.
+
+#. Download JavaAgent to any directory on the host to be connected to APM. For details, see :ref:`JavaAgent Download Addresses <apm_02_0007__en-us_topic_0000001222407900_table145112051071>`.
 
    Example command:
 
    **curl -O https://xxx/apm-javaagent-x.x.x.tar**
 
-2. Run the **tar** command to decompress the JavaAgent package.
+3. Run the **tar** command to decompress the JavaAgent package.
 
    Example command:
 
    **tar -xvf apm-javaagent-x.x.x.tar**
 
-3. Modify the **apm.config** file in the JavaAgent package. Configure **master.address** by referring to :ref:`Access Addresses <apm_02_0008>`, and add the AK/SK to the configuration file, as shown in the following figure.
+4. Modify the **apm.config** file in the JavaAgent package. For details about how to configure **master.address**, see :ref:`Access Addresses <apm_02_0008__en-us_topic_0000001266768045_table201446686>`. Enter the AK/SK to the configuration file, as shown in the following figure.
 
 
    .. figure:: /_static/images/en-us_image_0000001196275562.png
@@ -45,7 +47,7 @@ Procedure
 
       **Figure 2** Adding the AK/SK
 
-4. Modify the startup script of the Java process.
+5. Modify the startup script of the Java process.
 
    Add the path of the **apm-javaagent.jar** package and the component name of the Java process to the end of the Java command in the service startup script.
 
@@ -69,4 +71,4 @@ Procedure
 
          Component names are unique under an application.
 
-5. Redeploy the application.
+6. Redeploy the application.

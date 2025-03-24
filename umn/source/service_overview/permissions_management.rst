@@ -15,7 +15,7 @@ IAM can be used free of charge. You pay only for the resources in your account. 
 
 .. important::
 
-   Traces and Agent statistics do not involve your entity resources. To ensure statistics integrity, authorized users can check the trace and Agent statistics of the tenant, including those in other enterprise projects.
+   Traces and Agent statistics do not involve your entity resources. To ensure statistics integrity, authorized users can check the trace and Agent statistics in all enterprise projects of a tenant.
 
 .. _apm_01_0007__en-us_topic_0000001195725122_section186901838201416:
 
@@ -102,5 +102,5 @@ APM is a global service and can be accessed without specifying a physical region
    Adding an access key                Y              x
    Obtaining general configuration     Y              Y
    Modifying general configuration     Y              x
-   Querying Agent statistics           Y              Y
+   Checking Agent statistics           Y              Y
    =================================== ============== ==================

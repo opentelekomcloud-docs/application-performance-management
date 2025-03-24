@@ -47,7 +47,7 @@ Viewing Exception Logs
       +-------------+------------------+------------------------------------------------+
       | Log Version | Log Type         | Log type                                       |
       +-------------+------------------+------------------------------------------------+
-      |             | Version          | Log version                                    |
+      |             | Version          | Version                                        |
       +-------------+------------------+------------------------------------------------+
 
    -  Click a number in blue in the **Total Exceptions** column to view the trend of the total exceptions in a specified period.
@@ -68,12 +68,6 @@ Viewing Exception Logs
 #. Select a time range. Default: **Last 20 minutes**.
 
    Options: **Last 20 minutes**, **Last hour**, **Last 3 hours**, **Last 6 hours**, **Last day**, **Today**, **Yesterday**, **Last week**, **Last month**, or **Custom**.
-
-
-   .. figure:: /_static/images/en-us_image_0000001602192870.png
-      :alt: **Figure 3** Selecting a time range
-
-      **Figure 3** Selecting a time range
 
 #. Click |image3| in the upper right corner of the list and select the metric data you want to view.
 

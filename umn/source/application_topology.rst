@@ -44,9 +44,9 @@ Viewing the Global Topology
 
 #. Click the **Global Topology** tab to view the call and dependency relationships of all components under the application.
 
-   Click a line between components. The detailed data is displayed on the right.
-
-   Use tags to filter calls or enable **Display only calls between components** to shield the calls of external components.
+   -  Click a line between components. The detailed data is displayed on the right.
+   -  Enable **Display only calls between components** to shield the calls of external components.
+   -  Use tags to filter calls.
 
 
    .. figure:: /_static/images/en-us_image_0000001676682349.png

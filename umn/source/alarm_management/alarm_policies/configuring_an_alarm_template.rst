@@ -165,9 +165,7 @@ Procedure
 
 7. Click **Yes**. The information about the bound nodes is displayed in the lower part of the page, including the environment, tag, and region names.
 
-   .. note::
-
-      If there are multiple types of bound nodes, only information about the nodes with the same environment, tag, and region is displayed.
+   If there are multiple types of bound nodes, only information about the nodes with the same environment, tag, and region is displayed.
 
 8. Click **Complete**.
 

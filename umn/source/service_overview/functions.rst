@@ -10,7 +10,11 @@ APM manages cloud application performance. It provides application metric monito
 Application Metric Monitoring
 -----------------------------
 
-This function enables you to monitor the overall health status of applications. APM Agents collect metrics of JVM, GC, service calls, exceptions, external calls, database access, and middleware of Java applications, helping you monitor application running.
+This function enables you to monitor the overall health status of applications. It includes application monitoring details, application monitoring settings, monitoring item views, instances, collection status, and component settings.
+
+-  Application monitoring details: APM Agents collect metrics of JVM, GC, service calls, exceptions, external calls, database access, and middleware of Java applications to help you monitor their conditions.
+-  Application monitoring settings: You can customize collection parameters for some collectors.
+-  Monitoring item views: APM supports summary tables, trend graphs, latest data tables, and raw data tables.
 
 Tracing
 -------

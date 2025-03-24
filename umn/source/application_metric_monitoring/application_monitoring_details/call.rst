@@ -40,12 +40,6 @@ Going to the Call Page
 
    Options: **Last 20 minutes**, **Last hour**, **Last 3 hours**, **Last 6 hours**, **Last day**, **Today**, **Yesterday**, **Last week**, **Last month**, or **Custom**.
 
-
-   .. figure:: /_static/images/en-us_image_0000001651752769.png
-      :alt: **Figure 3** Selecting a time range
-
-      **Figure 3** Selecting a time range
-
 #. Click |image3| in the upper right corner of the list and select the metric data you want to view.
 
 Viewing HttpClient Monitoring Data
@@ -57,9 +51,9 @@ The HttpClient monitoring system collects the metrics of each URL. For details a
 
 
 .. figure:: /_static/images/en-us_image_0000001675945469.png
-   :alt: **Figure 4** URL summary under HttpClient monitoring
+   :alt: **Figure 3** URL summary under HttpClient monitoring
 
-   **Figure 4** URL summary under HttpClient monitoring
+   **Figure 3** URL summary under HttpClient monitoring
 
 .. _apm_07_0009__en-us_topic_0000001262004153_table43721153163916:
 
@@ -108,9 +102,9 @@ APM can summarize external call metrics by cluster. For details about the metric
 
 
 .. figure:: /_static/images/en-us_image_0000001627426716.png
-   :alt: **Figure 5** Cluster summary under HttpClient monitoring
+   :alt: **Figure 4** Cluster summary under HttpClient monitoring
 
-   **Figure 5** Cluster summary under HttpClient monitoring
+   **Figure 4** Cluster summary under HttpClient monitoring
 
 .. _apm_07_0009__en-us_topic_0000001262004153_table191674445211:
 
@@ -121,7 +115,7 @@ APM can summarize external call metrics by cluster. For details about the metric
    +=================+===============+========================================================+
    | Cluster summary | envId         | Cluster ID of the called party.                        |
    +-----------------+---------------+--------------------------------------------------------+
-   |                 | hostUri       | Host URL                                               |
+   |                 | hostUri       | URL of the called party.                               |
    +-----------------+---------------+--------------------------------------------------------+
    |                 | Calls         | Number of times that the cluster URL is called.        |
    +-----------------+---------------+--------------------------------------------------------+
@@ -144,7 +138,7 @@ APM can summarize external call metrics by cluster. For details about the metric
    |                 | 10s-n         | Number of requests with response time longer than 10s. |
    +-----------------+---------------+--------------------------------------------------------+
 
-Click a number in blue (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
+-  Click a number in blue (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
 
 **Status code summary**
 
@@ -152,9 +146,9 @@ APM can summarize external call metrics by status code. For details about the me
 
 
 .. figure:: /_static/images/en-us_image_0000001675947013.png
-   :alt: **Figure 6** Status code summary under HttpClient monitoring
+   :alt: **Figure 5** Status code summary under HttpClient monitoring
 
-   **Figure 6** Status code summary under HttpClient monitoring
+   **Figure 5** Status code summary under HttpClient monitoring
 
 .. _apm_07_0009__en-us_topic_0000001262004153_table962120572:
 
@@ -180,9 +174,9 @@ On the **Exception** tab page, view the exception statistics about HttpClient ca
 
 
 .. figure:: /_static/images/en-us_image_0000001627268020.png
-   :alt: **Figure 7** HttpClient monitoring exceptions
+   :alt: **Figure 6** HttpClient monitoring exceptions
 
-   **Figure 7** HttpClient monitoring exceptions
+   **Figure 6** HttpClient monitoring exceptions
 
 .. _apm_07_0009__en-us_topic_0000001262004153_table847310368015:
 
@@ -209,9 +203,9 @@ On the **Overview** tab page, view the metrics of the selected instance. For det
 
 
 .. figure:: /_static/images/en-us_image_0000001676267965.png
-   :alt: **Figure 8** Overview under HttpClient monitoring
+   :alt: **Figure 7** Overview under HttpClient monitoring
 
-   **Figure 8** Overview under HttpClient monitoring
+   **Figure 7** Overview under HttpClient monitoring
 
 .. _apm_07_0009__en-us_topic_0000001262004153_table714417141030:
 

@@ -38,12 +38,6 @@ Going to the JVM Page
 
    Options: **Last 20 minutes**, **Last hour**, **Last 3 hours**, **Last 6 hours**, **Last day**, **Today**, **Yesterday**, **Last week**, **Last month**, or **Custom**.
 
-
-   .. figure:: /_static/images/en-us_image_0000001651751305.png
-      :alt: **Figure 3** Selecting a time range
-
-      **Figure 3** Selecting a time range
-
 Viewing JVM Information
 -----------------------
 
@@ -51,9 +45,9 @@ On the **JVM** tab page, view the JVMInfo metrics of the corresponding instance.
 
 
 .. figure:: /_static/images/en-us_image_0000001627418708.png
-   :alt: **Figure 4** Viewing JVM information
+   :alt: **Figure 3** Viewing JVM information
 
-   **Figure 4** Viewing JVM information
+   **Figure 3** Viewing JVM information
 
 .. _apm_07_0007__en-us_topic_0000001217724300_table157251648155319:
 
@@ -82,9 +76,9 @@ APM monitors JVM metrics. For details about the metrics, see :ref:`Table 2 <apm_
 
 
 .. figure:: /_static/images/en-us_image_0000001627739144.png
-   :alt: **Figure 5** Viewing JVM monitoring data
+   :alt: **Figure 4** Viewing JVM monitoring data
 
-   **Figure 5** Viewing JVM monitoring data
+   **Figure 4** Viewing JVM monitoring data
 
 .. _apm_07_0007__en-us_topic_0000001217724300_table1215310405:
 
@@ -147,9 +141,9 @@ APM monitors GC metrics. For details about the metrics, see :ref:`Table 2 <apm_0
 
 
 .. figure:: /_static/images/en-us_image_0000001676260081.png
-   :alt: **Figure 6** Viewing GC information
+   :alt: **Figure 5** Viewing GC information
 
-   **Figure 6** Viewing GC information
+   **Figure 5** Viewing GC information
 
 .. table:: **Table 3** GC metrics
 
@@ -189,9 +183,9 @@ You can view the thread details of the corresponding instance on APM. For detail
 
 
 .. figure:: /_static/images/en-us_image_0000001627740904.png
-   :alt: **Figure 7** Viewing threads
+   :alt: **Figure 6** Viewing threads
 
-   **Figure 7** Viewing threads
+   **Figure 6** Viewing threads
 
 .. _apm_07_0007__en-us_topic_0000001217724300_table3735183811019:
 
@@ -220,9 +214,9 @@ Viewing Java Methods
 
 
 .. figure:: /_static/images/en-us_image_0000001627262204.png
-   :alt: **Figure 8** Viewing Java methods
+   :alt: **Figure 7** Viewing Java methods
 
-   **Figure 8** Viewing Java methods
+   **Figure 7** Viewing Java methods
 
 .. _apm_07_0007__en-us_topic_0000001217724300_table16330184212241:
 

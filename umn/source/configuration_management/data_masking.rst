@@ -7,9 +7,10 @@ Data Masking
 
 You can set policies to mask the data reported using APM.
 
-.. important::
+Constraints
+-----------
 
-   APM will collect and store masked data. Do not upload privacy or sensitive data to APM. If you need to upload such data, encrypt it.
+APM will collect and store masked data. Do not upload privacy or sensitive data to APM. If you need to upload such data, encrypt them.
 
 Querying a Data Masking Configuration
 -------------------------------------
@@ -60,7 +61,7 @@ Adding a Data Masking Configuration
       +===================================+=============================================================================================================================================================================================================================================================================================================================+
       | Configuration Name                | Used to identify a data masking configuration. This parameter cannot be empty. Enter up to 30 characters. Only letters, digits, and special characters are allowed.                                                                                                                                                         |
       +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Configuration Description         | Used to describe the data masking configuration. This parameter cannot be empty. Enter up to 1000 characters. Only letters, digits, and special characters are allowed.                                                                                                                                                     |
+      | Configuration Description         | Used to describe the data masking configuration. This parameter cannot be empty. Enter up to 1,000 characters. Only letters, digits, and special characters are allowed.                                                                                                                                                    |
       +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Configuration Items               | -  Enter up to 32 characters. Only letters, digits, underscores (_), and hyphens (-) are allowed.                                                                                                                                                                                                                           |
       |                                   | -  The configuration item cannot be empty. By default, an empty configuration item is displayed. If you select **Token**, content will be replaced with a globally unique random character string. If you select **Mask**, content will be replaced with a fixed number of asterisks (*). By default, **Mask** is selected. |

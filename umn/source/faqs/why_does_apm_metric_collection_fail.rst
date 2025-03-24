@@ -2,23 +2,23 @@
 
 .. _apm_03_0004:
 
-Why Does Metric Data Collection Fail?
-=====================================
+Why Does APM Metric Collection Fail?
+====================================
 
-#. You can view metric data several minutes after you connect Agents.
-#. If data collection is stopped, the possible causes are as follows:
+#. You can check metric data several minutes after you connect APM Agents.
+#. If data collection stops, check the following:
 
    -  Instance level: Agents are stopped on the **Instance** tab page.
    -  Monitoring item level: Monitoring items are manually disabled on the **Monitoring Item** tab page.
-   -  Global level: The **Stop Collecting Data Through Bytecode Instrumentation** option is enabled on the **General Configuration** page.
+   -  Global level: The **Stop Collecting Data Through Bytecode Instrumentation** option is enabled on the **General Configuration** page of APM.
 
-3. If no data is collected for a long time, the possible causes are as follows:
+3. If no data is collected for a long time, check the following:
 
    -  Java 9 prompts that the **sql.time** class cannot be found.
 
       Cause analysis: Agents are developed using JDK 1.7. However, after Java 9 modularization, no SQL package is provided by default.
 
-      Occurrence probability: This problem occurs under certain conditions.
+      Occurrence: This problem occurs under certain conditions.
 
       Workaround: Ensure that the component can proactively import **java.sql** to **module-info.java**.
 
@@ -26,7 +26,7 @@ Why Does Metric Data Collection Fail?
 
       Cause analysis: Agents are developed using JDK 1.7, but the Java 11 Unsafe class is categorized to a different package.
 
-      Occurrence probability: This problem occurs inevitably.
+      Occurrence: This problem occurs inevitably.
 
       Workaround: Ensure that the application can proactively import **jdk.unsupported** to **module-info.java**.
 
