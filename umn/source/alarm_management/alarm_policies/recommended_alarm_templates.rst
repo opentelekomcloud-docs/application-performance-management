@@ -42,16 +42,10 @@ Using Recommended Alarm Templates
 8. Click **Yes**. The copied alarm template is displayed on the template list.
 
 
-   .. figure:: /_static/images/en-us_image_0000001908301892.png
+   .. figure:: /_static/images/en-us_image_0000001676894365.png
       :alt: **Figure 4** Returning to the alarm template page
 
       **Figure 4** Returning to the alarm template page
-
-
-   .. figure:: /_static/images/en-us_image_0000001676894365.png
-      :alt: **Figure 5** Returning to the alarm template page
-
-      **Figure 5** Returning to the alarm template page
 
 9. Click **Modify** in the **Operation** column and :ref:`bind nodes <apm_07_0024__en-us_topic_0000001199880678_li095961155617>` to make the copied template to take effect.
 

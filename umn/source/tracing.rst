@@ -31,6 +31,7 @@ This function is used to search for span information, that is, the root event of
 #. Log in to the management console.
 #. Click |image1| on the left and choose **Application** > **Application Performance Management**.
 #. In the navigation pane, choose **Application Monitoring** > **Tracing**.
+#. Select a time range in the upper right corner of the page. Default: **Last 20 minutes**. Options: **Last 20 minutes**, **Last hour**, **Last 3 hours**, **Last 6 hours**, **Last day**, **Today**, **Yesterday**, or **Custom**.
 #. Specify the following search criteria or add custom criteria to query traces.
 
    .. table:: **Table 1** Search criteria of traces
@@ -99,6 +100,11 @@ Parameter description:
 #. Host of the instance to which the trace belongs.
 #. IP address of the instance to which the trace belongs.
 #. Actual URL of the trace.
+#. Only the traces of successful or failed requests can be displayed. The following uses **Successful Request** as an example.
+
+   -  Click the green button next to **Successful Request**, only the traces of successful requests are displayed. The red button next to **Failed Request** becomes dimmed.
+   -  If you click the green button again, both the traces of successful and failed requests are displayed. The red button is no longer dimmed.
+   -  The green and red buttons cannot be grayed at the same time.
 
 You can also click a specific URL on the monitoring item view page, for example, the table view of the URL monitoring item. In this way, you can quickly search for required trace information based on preset search criteria.
 
@@ -119,12 +125,28 @@ Click the name of a trace to view its details, as shown in the following figure.
    Parameter description:
 
 #. Component and environment to which the called API belongs
+
 #. Response time (unit: ms) of the client. You can hover the mouse pointer over this digit to view more details.
+
 #. Response time (unit: ms) of the server.
+
 #. Key parameter of the method in the trace method stack. For example, for a Tomcat entry method, a real URL is displayed. For a MySQL call method, an executed SQL statement is displayed.
+
 #. Number of components that are involved.
+
 #. Call parameters. Click |image3| to view the call parameters.
+
+#. Click |image4| to download the sequence diagram.
+
+#. Traces are displayed in a tree. **Depth** indicates the number of layers in the tree.
+
+
+   .. figure:: /_static/images/en-us_image_0000002202489184.png
+      :alt: **Figure 3** Depth
+
+      **Figure 3** Depth
 
 .. |image1| image:: /_static/images/en-us_image_0000001570694488.png
 .. |image2| image:: /_static/images/en-us_image_0000001262928973.png
 .. |image3| image:: /_static/images/en-us_image_0000002096110598.png
+.. |image4| image:: /_static/images/en-us_image_0000002096273458.png

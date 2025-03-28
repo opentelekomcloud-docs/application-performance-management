@@ -34,14 +34,10 @@ Creating a Sub-application
       |                                   |                                                                                                                        |
       |                                   | Enter 1 to 128 characters. Only digits, letters, underscores (_), hyphens (-), brackets, and periods (.) are allowed.  |
       +-----------------------------------+------------------------------------------------------------------------------------------------------------------------+
-      | Description                       | Description of the sub-application. Enter up to 1000 characters.                                                       |
+      | Description                       | Description of the sub-application. Enter up to 1,000 characters.                                                      |
       +-----------------------------------+------------------------------------------------------------------------------------------------------------------------+
 
-#. Click **Yes**.
-
-   .. note::
-
-      A maximum of three layers of sub-applications can be created.
+#. Click **Yes**. A maximum of three layers of sub-applications can be created.
 
 .. |image1| image:: /_static/images/en-us_image_0000001629297117.png
 .. |image2| image:: /_static/images/en-us_image_0000001629417037.png

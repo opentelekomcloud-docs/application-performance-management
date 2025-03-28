@@ -15,4 +15,4 @@ To upgrade the manually installed Agent, download the new Agent by referring to 
 Upgrading Agents of Other Types
 -------------------------------
 
-Install new Agents. For details, see :ref:`Manually Installing Agents for Java Applications <apm_02_0004>`.
+Install new Agents. For details, see section :ref:`Manually Installing Agents for Java Applications <apm_02_0004>`.
