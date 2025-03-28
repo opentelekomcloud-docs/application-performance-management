@@ -20,12 +20,6 @@ Viewing Exception Logs
 
 #. Click the **Exception** tab. By default, exception logs of all instances are displayed. For details about the metrics, see :ref:`Table 1 <apm_07_0008__en-us_topic_0000001262364087_table121125341047>`.
 
-
-   .. figure:: /_static/images/en-us_image_0000001675942733.png
-      :alt: **Figure 1** Exception monitoring data
-
-      **Figure 1** Exception monitoring data
-
    .. _apm_07_0008__en-us_topic_0000001262364087_table121125341047:
 
    .. table:: **Table 1** Exception and log parameters
@@ -50,20 +44,14 @@ Viewing Exception Logs
       |             | Version          | Version                                        |
       +-------------+------------------+------------------------------------------------+
 
-   -  Click a number in blue in the **Total Exceptions** column to view the trend of the total exceptions in a specified period.
-   -  Click the blue text in the **Message** column to view the message time and content.
+   -  Click a number in pink in the **Total Exceptions** column to view the trend of the total exceptions in a specified period.
+   -  Click the pink text in the **Message** column to view the message time and content.
    -  Click **Detail** in the **Error Stack** column to view exception details.
    -  Click **History** in the **Error Stack** column to view the historical error stack list.
 
-   -  Click the blue text in the **Version** column to view details.
+   -  Click the pink text in the **Version** column to view details.
 
 #. On the **Exception** tab page, select a target instance and then select **Exception** to view the exception monitoring data.
-
-
-   .. figure:: /_static/images/en-us_image_0000001627264096.png
-      :alt: **Figure 2** Selecting a target instance and exception
-
-      **Figure 2** Selecting a target instance and exception
 
 #. Select a time range. Default: **Last 20 minutes**.
 
@@ -72,5 +60,5 @@ Viewing Exception Logs
 #. Click |image3| in the upper right corner of the list and select the metric data you want to view.
 
 .. |image1| image:: /_static/images/en-us_image_0000001621004377.png
-.. |image2| image:: /_static/images/en-us_image_0000001914132622.png
-.. |image3| image:: /_static/images/en-us_image_0000001946109025.png
+.. |image2| image:: /_static/images/en-us_image_0000001946011777.png
+.. |image3| image:: /_static/images/en-us_image_0000001914389884.png

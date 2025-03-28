@@ -38,7 +38,7 @@ Procedure
       #. Basic information
 
 
-         .. figure:: /_static/images/en-us_image_0000001517792906.png
+         .. figure:: /_static/images/en-us_image_0000002202697592.png
             :alt: **Figure 2** Basic information
 
             **Figure 2** Basic information
@@ -68,7 +68,7 @@ Procedure
       #. Alarm rule
 
 
-         .. figure:: /_static/images/en-us_image_0000001518272026.png
+         .. figure:: /_static/images/en-us_image_0000002237780613.png
             :alt: **Figure 3** Alarm rule
 
             **Figure 3** Alarm rule
@@ -191,9 +191,9 @@ After the alarm template is created, perform the operations listed in :ref:`Tabl
    +----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 
 .. |image1| image:: /_static/images/en-us_image_0000001542018454.png
-.. |image2| image:: /_static/images/en-us_image_0000001568951949.png
-.. |image3| image:: /_static/images/en-us_image_0000001518112070.png
+.. |image2| image:: /_static/images/en-us_image_0000002202858124.png
+.. |image3| image:: /_static/images/en-us_image_0000002237779669.png
 .. |image4| image:: /_static/images/en-us_image_0000001517956762.png
 .. |image5| image:: /_static/images/en-us_image_0000001568954813.png
-.. |image6| image:: /_static/images/en-us_image_0000001341215582.png
-.. |image7| image:: /_static/images/en-us_image_0000001341215582.png
+.. |image6| image:: /_static/images/en-us_image_0000002202703580.png
+.. |image7| image:: /_static/images/en-us_image_0000002202703580.png

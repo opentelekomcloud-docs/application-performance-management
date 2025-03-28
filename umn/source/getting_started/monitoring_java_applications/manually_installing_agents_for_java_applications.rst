@@ -59,16 +59,14 @@ Procedure
 
    java **-javaagent:/xxx/apm-javaagent/apm-javaagent.jar=appName=myApp,env=myEnv,envTag=myTag,business=myBusiness,subBusiness=mySub**
 
-   .. note::
+   -  The preceding parameters are built-in CMDB information of APM. For details, see :ref:`CMDB Management <apm_07_0050>`.
 
-      -  The preceding parameters are built-in CMDB information of APM. For details, see :ref:`CMDB Management <apm_07_0050>`.
+   -  Due to historical reasons, the metadata of APM startup parameters conflicts with some CMDB concepts. The following shows the details.
 
-      -  Due to historical reasons, the metadata of APM startup parameters conflicts with some CMDB concepts. The following shows the details.
+      Generally, the startup parameter is set to **-javaagent:D:\\javaagent-package\\apm-javaagent\\apm-javaagent.jar=appName=xxx,env=yyy,business=zzz,subBusiness=sss,envTag=xxx**. **appName** indicates a component, **business** indicates an application, **subBusiness** indicates a sub-application, and **envTag** indicates an environment tag.
 
-         Generally, the startup parameter is set to **-javaagent:D:\\javaagent-package\\apm-javaagent\\apm-javaagent.jar=appName=xxx,env=yyy,business=zzz,subBusiness=sss,envTag=xxx**. **appName** indicates a component, **business** indicates an application, **subBusiness** indicates a sub-application, and **envTag** indicates an environment tag.
+      If **business** is not set on the web page, the system reports an error when the JavaAgent is started. If other parameters (**subBusiness**, **appName**, **env**, and **envTag**) are not set, the system automatically creates them when the JavaAgent is started.
 
-         If **business** is not set on the web page, the system reports an error when the JavaAgent is started. If other parameters (**subBusiness**, **appName**, **env**, and **envTag**) are not set, the system automatically creates them when the JavaAgent is started.
-
-         Component names are unique under an application.
+      Component names are unique under an application.
 
 6. Redeploy the application.

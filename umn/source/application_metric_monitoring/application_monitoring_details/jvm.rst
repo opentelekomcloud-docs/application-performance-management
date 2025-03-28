@@ -20,19 +20,7 @@ Going to the JVM Page
 
 #. Click the **JVM** tab. By default, the JVMMonitor information of all instances is displayed.
 
-
-   .. figure:: /_static/images/en-us_image_0000001676256889.png
-      :alt: **Figure 1** Going to the JVM page
-
-      **Figure 1** Going to the JVM page
-
 #. On the displayed **JVM** tab page, select a target instance and monitoring item to view the monitoring data in different metric sets.
-
-
-   .. figure:: /_static/images/en-us_image_0000001676257513.png
-      :alt: **Figure 2** Selecting an instance and monitoring item
-
-      **Figure 2** Selecting an instance and monitoring item
 
 #. Select a time range. Default: **Last 20 minutes**.
 
@@ -42,12 +30,6 @@ Viewing JVM Information
 -----------------------
 
 On the **JVM** tab page, view the JVMInfo metrics of the corresponding instance. For details about the metrics, see :ref:`Table 1 <apm_07_0007__en-us_topic_0000001217724300_table157251648155319>`.
-
-
-.. figure:: /_static/images/en-us_image_0000001627418708.png
-   :alt: **Figure 3** Viewing JVM information
-
-   **Figure 3** Viewing JVM information
 
 .. _apm_07_0007__en-us_topic_0000001217724300_table157251648155319:
 
@@ -73,12 +55,6 @@ Viewing JVM Monitoring Data
 ---------------------------
 
 APM monitors JVM metrics. For details about the metrics, see :ref:`Table 2 <apm_07_0007__en-us_topic_0000001217724300_table1215310405>`. JVM monitoring metrics are displayed in graphs, so that you can view and analyze JVM monitoring data more easily.
-
-
-.. figure:: /_static/images/en-us_image_0000001627739144.png
-   :alt: **Figure 4** Viewing JVM monitoring data
-
-   **Figure 4** Viewing JVM monitoring data
 
 .. _apm_07_0007__en-us_topic_0000001217724300_table1215310405:
 
@@ -139,12 +115,6 @@ Viewing GC Information
 
 APM monitors GC metrics. For details about the metrics, see :ref:`Table 2 <apm_07_0007__en-us_topic_0000001217724300_table1215310405>`.
 
-
-.. figure:: /_static/images/en-us_image_0000001676260081.png
-   :alt: **Figure 5** Viewing GC information
-
-   **Figure 5** Viewing GC information
-
 .. table:: **Table 3** GC metrics
 
    +---------------+------------------------+--------------------------------------------------+
@@ -173,19 +143,13 @@ APM monitors GC metrics. For details about the metrics, see :ref:`Table 2 <apm_0
    |               | Slowest GC Details     | Details about the slowest GC.                    |
    +---------------+------------------------+--------------------------------------------------+
 
--  Click the digits in blue (such as those in the **Count**, **Total GC Duration (ms)**, or **Max GC Duration (ms)** column) to view the corresponding GC trend graph in a certain period (default: 20 minutes).
+-  Click the numbers in pink (such as those in the **Count**, **Total GC Duration (ms)**, or **Max GC Duration (ms)** column) to view the corresponding GC trend graph in a certain period (default: 20 minutes).
 -  On the GC details area, you can view the GC type, GC cause, count, total GC duration (ms), maximum GC duration (ms), GC recycler, and slowest GC details (details and history).
 
 Viewing Threads
 ---------------
 
 You can view the thread details of the corresponding instance on APM. For details, see :ref:`Table 4 <apm_07_0007__en-us_topic_0000001217724300_table3735183811019>`.
-
-
-.. figure:: /_static/images/en-us_image_0000001627740904.png
-   :alt: **Figure 6** Viewing threads
-
-   **Figure 6** Viewing threads
 
 .. _apm_07_0007__en-us_topic_0000001217724300_table3735183811019:
 
@@ -211,12 +175,6 @@ Viewing Java Methods
 #. By default, APM does not monitor Java methods. To monitor them, :ref:`configure the JavaMethod monitoring item <apm_07_0016>` first.
 #. After the configuration is complete, the system monitors the methods and classes of JavaMethod.
 #. On the **JVM** page, select a target instance and **JavaMethod** to view details. For details, see :ref:`Table 5 <apm_07_0007__en-us_topic_0000001217724300_table16330184212241>`.
-
-
-.. figure:: /_static/images/en-us_image_0000001627262204.png
-   :alt: **Figure 7** Viewing Java methods
-
-   **Figure 7** Viewing Java methods
 
 .. _apm_07_0007__en-us_topic_0000001217724300_table16330184212241:
 
@@ -255,4 +213,4 @@ Viewing Java Methods
 -  Click a number (such as those in the **Calls** or **Errors** column) to view the trend of the thread in a specified period.
 
 .. |image1| image:: /_static/images/en-us_image_0000001570285326.png
-.. |image2| image:: /_static/images/en-us_image_0000001913972706.png
+.. |image2| image:: /_static/images/en-us_image_0000001914132626.png

@@ -7,9 +7,10 @@ Configuration Details
 
 You can define collection parameters for some collectors corresponding to monitoring items.
 
-.. note::
+Constraints
+-----------
 
-   On the **Monitoring Item** tab page, only monitoring items related to the connected application are displayed.
+On the **Monitoring Item** tab page, only monitoring items related to the connected application are displayed.
 
 Configuring a Monitoring Item
 -----------------------------
@@ -66,6 +67,6 @@ Enabling or Disabling a Monitoring Item
 #. Locate the row that contains the target monitoring item and enable or disable it.
 
 .. |image1| image:: /_static/images/en-us_image_0000001541509380.png
-.. |image2| image:: /_static/images/en-us_image_0000001914389824.png
+.. |image2| image:: /_static/images/en-us_image_0000001914229912.png
 .. |image3| image:: /_static/images/en-us_image_0000001541988552.png
 .. |image4| image:: /_static/images/en-us_image_0000001278182205.png

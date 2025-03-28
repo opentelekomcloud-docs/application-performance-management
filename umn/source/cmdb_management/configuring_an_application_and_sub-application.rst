@@ -38,4 +38,4 @@ Configuring an Application and Sub-application
 #. Click **Yes**.
 
 .. |image1| image:: /_static/images/en-us_image_0000001629016313.png
-.. |image2| image:: /_static/images/en-us_image_0000001629017681.png
+.. |image2| image:: /_static/images/en-us_image_0000001913980264.png

@@ -12,25 +12,23 @@ Precautions
 
 A user can create a maximum of two access keys with identical permissions and unlimited validity. Keep your access keys secure and change them periodically for security purposes. To change an access key, delete it and create a new one.
 
-.. note::
+APM allows you to encrypt and decrypt the SK in the **apm.config** file.
 
-   APM allows you to encrypt and decrypt the SK in the **apm.config** file.
+The encryption and decryption process is as follows:
 
-   The encryption and decryption process is as follows:
+#. Compile a Java class, for example, **com.demo.DecryptDemo**, and add a decryption method, for example, decrypt both the input and output to character strings.
 
-   #. Compile a Java class, for example, **com.demo.DecryptDemo**, and add a decryption method, for example, decrypt both the input and output to character strings.
+#. Compile the decryption method to decrypt the SK and return the decrypted value.
 
-   #. Compile the decryption method to decrypt the SK and return the decrypted value.
+#. Pack the **com.demo.DecryptDemo** class into a JAR package and place this JAR package and its dependent packages in the **apm-javaagent/ext** folder of JavaAgent.
 
-   #. Pack the **com.demo.DecryptDemo** class into a JAR package and place this JAR package and its dependent packages in the **apm-javaagent/ext** folder of JavaAgent.
+#. Add the following content to the **apm.config** file:
 
-   #. Add the following content to the **apm.config** file:
+   **decrypt.className=com.demo.DecryptDemo**
 
-      **decrypt.className=com.demo.DecryptDemo**
+   **decrypt.methodName=decrypt**
 
-      **decrypt.methodName=decrypt**
-
-      **secret.key={**\ *Character string encrypted by users*\ **}**
+   **secret.key={**\ *Character string encrypted by users*\ **}**
 
 Adding an Access Key
 --------------------

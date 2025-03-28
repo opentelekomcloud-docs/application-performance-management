@@ -20,19 +20,7 @@ Going to the URL Page
 
 #. In the tree on the left, click |image2| next to the target environment. On the **URL** tab page that is displayed, check URL monitoring information of all instances.
 
-
-   .. figure:: /_static/images/en-us_image_0000001676225985.png
-      :alt: **Figure 1** Going to the URL page
-
-      **Figure 1** Going to the URL page
-
 #. On the displayed **URL** tab page, select a target instance and monitoring item to view the monitoring data in different metric sets.
-
-
-   .. figure:: /_static/images/en-us_image_0000001676226289.png
-      :alt: **Figure 2** Selecting an instance and monitoring item
-
-      **Figure 2** Selecting an instance and monitoring item
 
 #. Select a time range. Default: **Last 20 minutes**.
 
@@ -46,12 +34,6 @@ Viewing URL Monitoring Data
 **URL summary**
 
 For common URL calls, the system collects the metrics of each URL. For details about the metrics, see :ref:`Table 1 <apm_07_0006__en-us_topic_0000001262244099_table17761201314410>`.
-
-
-.. figure:: /_static/images/en-us_image_0000001675906817.png
-   :alt: **Figure 3** URL summary under URL monitoring
-
-   **Figure 3** URL summary under URL monitoring
 
 .. _apm_07_0006__en-us_topic_0000001262244099_table17761201314410:
 
@@ -91,17 +73,11 @@ For common URL calls, the system collects the metrics of each URL. For details a
 
 -  URL invocation is the starting point of tracing. When you click a URL, the tracing page is displayed, showing the URL invocation condition in a certain period (default: 20 minutes).
 -  You can add a URL for tracing by referring to :ref:`Configuring URL Tracing <apm_07_0020__en-us_topic_0000001254639833_section178672317113>`.
--  Click a number in blue (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
+-  Click a number in pink (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
 
 **Status code summary**
 
 APM supports status code-based summary. The system collects the metrics of each URL. For details about the metrics, see :ref:`Table 2 <apm_07_0006__en-us_topic_0000001262244099_table12423123513019>`.
-
-
-.. figure:: /_static/images/en-us_image_0000001627227794.png
-   :alt: **Figure 4** Status code summary under URL monitoring
-
-   **Figure 4** Status code summary under URL monitoring
 
 .. _apm_07_0006__en-us_topic_0000001262244099_table12423123513019:
 
@@ -125,12 +101,6 @@ APM supports status code-based summary. The system collects the metrics of each 
 
 APM can summarize metrics by cluster. For details about the metrics, see :ref:`Table 3 <apm_07_0006__en-us_topic_0000001262244099_table184262985614>`.
 
-
-.. figure:: /_static/images/en-us_image_0000001627388978.png
-   :alt: **Figure 5** Cluster summary under URL monitoring
-
-   **Figure 5** Cluster summary under URL monitoring
-
 .. _apm_07_0006__en-us_topic_0000001262244099_table184262985614:
 
 .. table:: **Table 3** Parameters of the cluster summary
@@ -147,17 +117,11 @@ APM can summarize metrics by cluster. For details about the metrics, see :ref:`T
    |                 | Errors      | Number of times that the cluster fails to be called. |
    +-----------------+-------------+------------------------------------------------------+
 
-Click a number in blue (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
+Click a number in pink (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
 
 **Overview**
 
 View the metric trend of the selected instance on the **Overview** tab page. For details about the metrics, see :ref:`Table 4 <apm_07_0006__en-us_topic_0000001262244099_table19880607475>`.
-
-
-.. figure:: /_static/images/en-us_image_0000001676029453.png
-   :alt: **Figure 6** Overview under URL monitoring
-
-   **Figure 6** Overview under URL monitoring
 
 .. _apm_07_0006__en-us_topic_0000001262244099_table19880607475:
 
@@ -173,5 +137,5 @@ View the metric trend of the selected instance on the **Overview** tab page. For
    ========== ============== =================================
 
 .. |image1| image:: /_static/images/en-us_image_0000001570589062.png
-.. |image2| image:: /_static/images/en-us_image_0000001946011785.png
-.. |image3| image:: /_static/images/en-us_image_0000001650834309.png
+.. |image2| image:: /_static/images/en-us_image_0000001913972714.png
+.. |image3| image:: /_static/images/en-us_image_0000001914347410.png

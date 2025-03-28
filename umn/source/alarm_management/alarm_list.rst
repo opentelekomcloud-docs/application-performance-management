@@ -36,10 +36,12 @@ Viewing Alarms
    a. Select an application from the application drop-down list to view its alarms.
    b. In the search text box, set search criteria, and click |image2| to view the alarms that meet the criteria.
    c. Click |image3| next to **Alarm Status** to filter alarms by alarm status.
-   d. When necessary, enable **Scheduled Refresh**. In that case, the alarm list is refreshed every 5s.
-   e. Click |image4| in the **Operation** column to view the alarm details and notification.
+   d. Click |image4| to export the alarm list on the current page. A maximum of 100 alarms can be exported.
+   e. When necessary, enable **Scheduled Refresh**. In that case, the alarm list is refreshed every 5s.
+   f. Click |image5| in the **Operation** column to view the alarm details and notification.
 
 .. |image1| image:: /_static/images/en-us_image_0000001479891701.png
 .. |image2| image:: /_static/images/en-us_image_0000001204273024.png
 .. |image3| image:: /_static/images/en-us_image_0000001600839770.png
-.. |image4| image:: /_static/images/en-us_image_0000001737857810.png
+.. |image4| image:: /_static/images/en-us_image_0000001650281081.png
+.. |image5| image:: /_static/images/en-us_image_0000001737857810.png
