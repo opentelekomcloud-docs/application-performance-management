@@ -36,14 +36,12 @@ Creating an Application
       +-----------------------------------+------------------------------------------------------------------------------------------------------------------------+
       | Enterprise Project                | Select an enterprise project from the drop-down list.                                                                  |
       +-----------------------------------+------------------------------------------------------------------------------------------------------------------------+
-      | Description                       | Description of the application. Enter up to 1000 characters.                                                           |
+      | Description                       | Description of the application. Enter up to 1,000 characters.                                                          |
       +-----------------------------------+------------------------------------------------------------------------------------------------------------------------+
 
 #. Click **Confirm**.
 
-   .. note::
-
-      After an application is created, connect it to APM for monitoring. For details about the access method, see :ref:`Monitoring Java Applications <apm_02_0002>`.
+   After an application is created, connect it to APM for monitoring. For details about the access method, see :ref:`Monitoring Java Applications <apm_02_0002>`.
 
 .. |image1| image:: /_static/images/en-us_image_0000001579455730.png
 .. |image2| image:: /_static/images/en-us_image_0000001629294721.png

@@ -22,19 +22,7 @@ Going to the Call Page
 
 #. Click the **Call** tab. By default, the HttpClient monitoring information of all instances is displayed.
 
-
-   .. figure:: /_static/images/en-us_image_0000001627264696.png
-      :alt: **Figure 1** External call data
-
-      **Figure 1** External call data
-
 #. On the displayed **Call** tab page, select a target instance and monitoring item to view the monitoring data in different metric sets.
-
-
-   .. figure:: /_static/images/en-us_image_0000001676184865.png
-      :alt: **Figure 2** Selecting an instance and monitoring item
-
-      **Figure 2** Selecting an instance and monitoring item
 
 #. Select a time range. Default: **Last 20 minutes**.
 
@@ -48,12 +36,6 @@ Viewing HttpClient Monitoring Data
 **URL summary**
 
 The HttpClient monitoring system collects the metrics of each URL. For details about the metrics, see :ref:`Table 1 <apm_07_0009__en-us_topic_0000001262004153_table43721153163916>`. Click |image4| in the upper right corner of the list and select the metric data you want to view.
-
-
-.. figure:: /_static/images/en-us_image_0000001675945469.png
-   :alt: **Figure 3** URL summary under HttpClient monitoring
-
-   **Figure 3** URL summary under HttpClient monitoring
 
 .. _apm_07_0009__en-us_topic_0000001262004153_table43721153163916:
 
@@ -93,18 +75,12 @@ The HttpClient monitoring system collects the metrics of each URL. For details a
    |             | Slowest Trace   | ID of the slowest trace in a collection period.                  |
    +-------------+-----------------+------------------------------------------------------------------+
 
--  Click a number in blue (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
--  Click the text in blue (such as those in the **Slowest Trace** or **Error Trace** column) to view more details.
+-  Click a number in pink (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
+-  Click the text in pink (such as those in the **Slowest Trace** or **Error Trace** column) to view more details.
 
 **Cluster summary**
 
 APM can summarize external call metrics by cluster. For details about the metrics, see :ref:`Table 2 <apm_07_0009__en-us_topic_0000001262004153_table191674445211>`.
-
-
-.. figure:: /_static/images/en-us_image_0000001627426716.png
-   :alt: **Figure 4** Cluster summary under HttpClient monitoring
-
-   **Figure 4** Cluster summary under HttpClient monitoring
 
 .. _apm_07_0009__en-us_topic_0000001262004153_table191674445211:
 
@@ -138,17 +114,11 @@ APM can summarize external call metrics by cluster. For details about the metric
    |                 | 10s-n         | Number of requests with response time longer than 10s. |
    +-----------------+---------------+--------------------------------------------------------+
 
--  Click a number in blue (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
+-  Click a number in pink (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
 
 **Status code summary**
 
 APM can summarize external call metrics by status code. For details about the metrics, see :ref:`Table 3 <apm_07_0009__en-us_topic_0000001262004153_table962120572>`.
-
-
-.. figure:: /_static/images/en-us_image_0000001675947013.png
-   :alt: **Figure 5** Status code summary under HttpClient monitoring
-
-   **Figure 5** Status code summary under HttpClient monitoring
 
 .. _apm_07_0009__en-us_topic_0000001262004153_table962120572:
 
@@ -172,12 +142,6 @@ APM can summarize external call metrics by status code. For details about the me
 
 On the **Exception** tab page, view the exception statistics about HttpClient calls. For details about the metrics, see :ref:`Table 4 <apm_07_0009__en-us_topic_0000001262004153_table847310368015>`.
 
-
-.. figure:: /_static/images/en-us_image_0000001627268020.png
-   :alt: **Figure 6** HttpClient monitoring exceptions
-
-   **Figure 6** HttpClient monitoring exceptions
-
 .. _apm_07_0009__en-us_topic_0000001262004153_table847310368015:
 
 .. table:: **Table 4** Parameters of HttpClient monitoring exceptions
@@ -192,20 +156,14 @@ On the **Exception** tab page, view the exception statistics about HttpClient ca
    \          Error Stack   Exception stack information.
    ========== ============= =============================================
 
--  Click a number in blue in the **Count** column to view the trend of the thread in a specified period.
--  Click the text in blue in the **Error Message** column to view message details.
+-  Click a number in pink in the **Count** column to view the trend of the thread in a specified period.
+-  Click the text in pink in the **Error Message** column to view message details.
 -  Click **Detail** in the **Error Stack** column to view exception details.
 -  Click **History** in the **Error Stack** column to view the historical error stack list.
 
 **Overview**
 
 On the **Overview** tab page, view the metrics of the selected instance. For details about the metrics, see :ref:`Table 5 <apm_07_0009__en-us_topic_0000001262004153_table714417141030>`.
-
-
-.. figure:: /_static/images/en-us_image_0000001676267965.png
-   :alt: **Figure 7** Overview under HttpClient monitoring
-
-   **Figure 7** Overview under HttpClient monitoring
 
 .. _apm_07_0009__en-us_topic_0000001262004153_table714417141030:
 
@@ -220,6 +178,6 @@ On the **Overview** tab page, view the metrics of the selected instance. For det
    ========== =========== =======================
 
 .. |image1| image:: /_static/images/en-us_image_0000001620923917.png
-.. |image2| image:: /_static/images/en-us_image_0000001946011769.png
-.. |image3| image:: /_static/images/en-us_image_0000001914389876.png
-.. |image4| image:: /_static/images/en-us_image_0000001914229960.png
+.. |image2| image:: /_static/images/en-us_image_0000001913972698.png
+.. |image3| image:: /_static/images/en-us_image_0000001914229964.png
+.. |image4| image:: /_static/images/en-us_image_0000001946109021.png

@@ -12,8 +12,8 @@ Constraints
 
 APM will collect and store masked data. Do not upload privacy or sensitive data to APM. If you need to upload such data, encrypt them.
 
-Querying a Data Masking Configuration
--------------------------------------
+Viewing a Data Masking Configuration
+------------------------------------
 
 #. Log in to the management console.
 
@@ -73,6 +73,24 @@ Adding a Data Masking Configuration
 
 #. Click **Yes**.
 
+#. In the navigation pane, choose **Application Monitoring** > **Tracing**.
+
+#. Specify criteria to query traces and click |image2| to view call parameters.
+
+
+   .. figure:: /_static/images/en-us_image_0000001943060809.png
+      :alt: **Figure 5** Viewing call parameters
+
+      **Figure 5** Viewing call parameters
+
+#. On the **View Call Parameter** page, check the value of **transactionNames**. It is displayed as **\*******\***.
+
+
+   .. figure:: /_static/images/en-us_image_0000001943060729.png
+      :alt: **Figure 6** Data masking going into effect
+
+      **Figure 6** Data masking going into effect
+
 Modifying a Data Masking Configuration
 --------------------------------------
 
@@ -82,9 +100,9 @@ Modifying a Data Masking Configuration
 
 
    .. figure:: /_static/images/en-us_image_0000001908301500.png
-      :alt: **Figure 5** Modifying the data masking configuration
+      :alt: **Figure 7** Modifying the data masking configuration
 
-      **Figure 5** Modifying the data masking configuration
+      **Figure 7** Modifying the data masking configuration
 
 #. Click **Yes**.
 
@@ -97,16 +115,17 @@ Deleting Data Masking Configurations
 
 
    .. figure:: /_static/images/en-us_image_0000001908141492.png
-      :alt: **Figure 6** Deleting the data masking configuration
+      :alt: **Figure 8** Deleting the data masking configuration
 
-      **Figure 6** Deleting the data masking configuration
+      **Figure 8** Deleting the data masking configuration
 
 #. Select multiple data masking configurations and click **Batch Delete** above the list. In the displayed dialog box, click **Yes** to delete multiple data masking configurations at a time.
 
 
    .. figure:: /_static/images/en-us_image_0000001943060789.png
-      :alt: **Figure 7** Deleting configurations in batches
+      :alt: **Figure 9** Deleting configurations in batches
 
-      **Figure 7** Deleting configurations in batches
+      **Figure 9** Deleting configurations in batches
 
 .. |image1| image:: /_static/images/en-us_image_0000001943060829.png
+.. |image2| image:: /_static/images/en-us_image_0000001908141452.png

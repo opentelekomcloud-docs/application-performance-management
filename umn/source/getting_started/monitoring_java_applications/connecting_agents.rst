@@ -8,13 +8,8 @@ Connecting Agents
 Prerequisites
 -------------
 
-The network between your host and APM is normal.
-
-You can run the **Telnet** command to check the network.
-
-.. important::
-
-   Java supports enhanced Agents.
+-  The network between your host and APM is normal. You can run the **Telnet** command to check the network.
+-  Java supports enhanced Agents.
 
 Procedure
 ---------
@@ -41,7 +36,9 @@ Procedure
 
       **Figure 2** Basic information
 
-#. Select **Java** for **Backend language**.
+#. Select **Enhanced Agent** for **Access Mode**.
+
+#. Select **Java** for **Backend Language**.
 
 
    .. figure:: /_static/images/en-us_image_0000001881092662.png
@@ -49,9 +46,7 @@ Procedure
 
       **Figure 3** Access mode
 
-#. Select **Enhanced Agent** for **Code Source**.
-
-#. Use a remote login tool, such as PuTTY, to log in to the Linux host where the Agent is to be installed and run related commands as the **root** user.
+#. Use a remote login tool, such as PuTTY, to log in to the Linux host where the Agent is to be installed and run related commands as the user with the root or service permissions.
 
 #. Select an access mode based on the application type and access data by following the instructions.
 
@@ -66,12 +61,15 @@ Procedure
       +-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Parameter               | Description                                                                                                                                                                                                                                                                                                  | Mandatory             |
       +=========================+==============================================================================================================================================================================================================================================================================================================+=======================+
-      | APM_AK                  | AK and SK for installing JavaAgent.                                                                                                                                                                                                                                                                          | Yes                   |
+      | APM_AK                  | AK and SK for installing JavaAgent. To obtain **APM_AK** and **APM_SK**, see :ref:`Access Keys <apm_07_0034>`.                                                                                                                                                                                               | Yes                   |
       |                         |                                                                                                                                                                                                                                                                                                              |                       |
-      | APM_SK                  | .. caution::                                                                                                                                                                                                                                                                                                 |                       |
+      | APM_SK                  | When you copy the command to install JavaAgent, delete **{}** when setting **APM_AK** and **APM_SK**.                                                                                                                                                                                                        |                       |
       |                         |                                                                                                                                                                                                                                                                                                              |                       |
-      |                         |    CAUTION:                                                                                                                                                                                                                                                                                                  |                       |
-      |                         |    When you copy the command to install JavaAgent, delete **{}** when setting **APM_AK** and **APM_SK**.                                                                                                                                                                                                     |                       |
+      |                         | Example:                                                                                                                                                                                                                                                                                                     |                       |
+      |                         |                                                                                                                                                                                                                                                                                                              |                       |
+      |                         | .. code-block::                                                                                                                                                                                                                                                                                              |                       |
+      |                         |                                                                                                                                                                                                                                                                                                              |                       |
+      |                         |    curl -k https://javaagent.***/apm_agent_install2.sh -o apm_agent_install.sh && bash apm_agent_install.sh -ak * -sk * -masteraddress https://**** -obsaddress https://javaagent.***.com -version latest; history -cw; history -r                                                                           |                       |
       +-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Probe Installation Path | Path for installing the Agent.                                                                                                                                                                                                                                                                               | Yes                   |
       +-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
