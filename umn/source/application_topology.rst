@@ -29,11 +29,15 @@ Viewing the Topology of a Component
 
    Enable **Display only calls between components** to shield the calls of external components, or click **Show All** to display the calls between all components except the central node.
 
+#. Right-click a component and then click **Viewing a Call Chain** or **Viewing Indicators**.
 
-   .. figure:: /_static/images/en-us_image_0000001627988704.png
-      :alt: **Figure 1** Viewing the topology of a component
+   -  Viewing a call chain
 
-      **Figure 1** Viewing the topology of a component
+      Click **Viewing a Call Chain** to go to the trace page of the component. For details, see :ref:`Tracing <apm_07_0018>`.
+
+   -  Viewing indicators
+
+      Click **Viewing Indicators** to go to the URL page of the component. For details, see :ref:`URL <apm_07_0006>`.
 
 Viewing the Global Topology
 ---------------------------
@@ -44,15 +48,15 @@ Viewing the Global Topology
 
 #. Click the **Global Topology** tab to view the call and dependency relationships of all components under the application.
 
-   Click a line between components. The detailed data is displayed on the right.
-
-   Use tags to filter calls or enable **Display only calls between components** to shield the calls of external components.
+   -  Click a line between components. The detailed data is displayed on the right.
+   -  Enable **Display only calls between components** to shield the calls of external components.
+   -  Use tags to filter calls.
 
 
    .. figure:: /_static/images/en-us_image_0000001676682349.png
-      :alt: **Figure 2** Viewing the global topology
+      :alt: **Figure 1** Viewing the global topology
 
-      **Figure 2** Viewing the global topology
+      **Figure 1** Viewing the global topology
 
 .. |image1| image:: /_static/images/en-us_image_0000001541828576.png
-.. |image2| image:: /_static/images/en-us_image_0000001913972626.png
+.. |image2| image:: /_static/images/en-us_image_0000001914132538.png

@@ -23,9 +23,7 @@ On the **General Configuration** page, you can determine whether to collect data
 
       Enable or disable this function as required. Data such as JVM metrics will always be collected using MBeans. The default value is **No**.
 
-      .. note::
-
-         When the **Stop Collecting Data Through Bytecode Instrumentation** option is enabled, data will no longer be collected through bytecode instrumentation. Data such as JVM, GC, and Tomcat thread metrics can still be collected using MBeans.
+      Note: When the **Stop Collecting Data Through Bytecode Instrumentation** option is enabled, data will no longer be collected through bytecode instrumentation. Data such as JVM, GC, and Tomcat thread metrics can still be collected using MBeans.
 
    -  Slow Request Threshold
 
@@ -33,6 +31,6 @@ On the **General Configuration** page, you can determine whether to collect data
 
    -  Max. Collected Data Rows
 
-      If this value is reached, data will not be collected to prevent excessive memory usage. The default value is **499**.
+      If this value is reached, data will not be collected to prevent excessive memory usage. The default value is **500**.
 
 .. |image1| image:: /_static/images/en-us_image_0000001542557752.png

@@ -9,6 +9,7 @@ On the **Modify HttpClient Monitoring Configuration** page, set the following UR
 
 -  **Collection Interval**: The default value is **60s** and cannot be changed.
 -  URL normalization is used to aggregate URLs that meet the conditions you set. For example, **http://localhost/rest/v1/test/123** and **http://localhost/rest/v1/test/234** can be aggregated into **http://localhost/rest/v1/test/**\ *{id}*.
+-  **httpClientMaxRows**: the maximum number of HttpClient rows that can be collected by the Agent. If this value has been reached, the Agent stops collecting data immediately. The default value is **500**. The value ranges from 10 to 2000.
 
 .. _apm_07_0014__en-us_topic_0000001217131578_fig78581952152820:
 

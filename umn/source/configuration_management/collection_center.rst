@@ -83,4 +83,4 @@ APM supports the following types of metric data:
    | DATETIME              | Time                   | Time is automatically displayed on the page.                                                                                                                   |
    +-----------------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000001542238056.png
+.. |image1| image:: /_static/images/en-us_image_0000001908301196.png

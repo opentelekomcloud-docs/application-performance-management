@@ -22,19 +22,7 @@ Going to the SQL Page
 
 #. Click the **SQL** tab. By default, the MySQL database information of all instances is displayed.
 
-
-   .. figure:: /_static/images/en-us_image_0000001675948477.png
-      :alt: **Figure 1** Going to the SQL page
-
-      **Figure 1** Going to the SQL page
-
 #. On the displayed **SQL** tab page, select a target instance and monitoring item to view the monitoring data in different metric sets.
-
-
-   .. figure:: /_static/images/en-us_image_0000001627430564.png
-      :alt: **Figure 2** Selecting an instance and monitoring item
-
-      **Figure 2** Selecting an instance and monitoring item
 
 #. Select a time range. Default: **Last 20 minutes**.
 
@@ -42,9 +30,9 @@ Going to the SQL Page
 
 
    .. figure:: /_static/images/en-us_image_0000001602510794.png
-      :alt: **Figure 3** Selecting a time range
+      :alt: **Figure 1** Selecting a time range
 
-      **Figure 3** Selecting a time range
+      **Figure 1** Selecting a time range
 
 #. Click |image3| in the upper right corner of the list and select the metric data you want to view.
 
@@ -54,12 +42,6 @@ Viewing MySQL Database Monitoring Data
 **SQL summary**
 
 APM can monitor MySQL databases by SQL. For details about the metrics, see :ref:`Table 1 <apm_07_0010__en-us_topic_0000001217564316_table835410610214>`. Click |image4| in the upper right corner of the list and select the metric data you want to view.
-
-
-.. figure:: /_static/images/en-us_image_0000001627751380.png
-   :alt: **Figure 4** SQL summary under MySQL database monitoring
-
-   **Figure 4** SQL summary under MySQL database monitoring
 
 .. _apm_07_0010__en-us_topic_0000001217564316_table835410610214:
 
@@ -104,18 +86,12 @@ APM can monitor MySQL databases by SQL. For details about the metrics, see :ref:
    +----------------+-----------------+------------------------------------------------------------------------+
 
 -  Click an SQL statement to view details.
--  Click a number in blue (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
+-  Click a number in pink (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
 -  Click a slow or an error trace to view its details.
 
 **Database summary**
 
 APM can summarize MySQL database metrics by database. For details about the metrics, see :ref:`Table 2 <apm_07_0010__en-us_topic_0000001217564316_table17186112310356>`.
-
-
-.. figure:: /_static/images/en-us_image_0000001676071449.png
-   :alt: **Figure 5** Database summary under MySQL database monitoring
-
-   **Figure 5** Database summary under MySQL database monitoring
 
 .. _apm_07_0010__en-us_topic_0000001217564316_table17186112310356:
 
@@ -155,17 +131,11 @@ APM can summarize MySQL database metrics by database. For details about the metr
    |                      | 10s-n                 | Number of requests with response time longer than 10s.         |
    +----------------------+-----------------------+----------------------------------------------------------------+
 
-Click a number in blue (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
+Click a number in pink (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
 
 **Exception**
 
 On the **Exception** tab page, view exception statistics about SQL calls. For details about the metrics, see :ref:`Table 3 <apm_07_0010__en-us_topic_0000001217564316_table16208113154714>`.
-
-
-.. figure:: /_static/images/en-us_image_0000001676072105.png
-   :alt: **Figure 6** Viewing exception statistics about SQL calls
-
-   **Figure 6** Viewing exception statistics about SQL calls
 
 .. _apm_07_0010__en-us_topic_0000001217564316_table16208113154714:
 
@@ -186,12 +156,6 @@ On the **Exception** tab page, view exception statistics about SQL calls. For de
 
 On the **Overview** tab page, view the call trend of the selected instance. For details about the metrics, see :ref:`Table 4 <apm_07_0010__en-us_topic_0000001217564316_table37611034174720>`.
 
-
-.. figure:: /_static/images/en-us_image_0000001676192573.png
-   :alt: **Figure 7** Overview
-
-   **Figure 7** Overview
-
 .. _apm_07_0010__en-us_topic_0000001217564316_table37611034174720:
 
 .. table:: **Table 4** Overview parameters
@@ -208,13 +172,7 @@ On the **Overview** tab page, view the call trend of the selected instance. For 
 
 **Info**
 
-On the **Info** tab page, view the driver version information. Click the text in blue to view more details.
-
-
-.. figure:: /_static/images/en-us_image_0000001676273437.png
-   :alt: **Figure 8** Info
-
-   **Figure 8** Info
+On the **Info** tab page, view the driver version information. Click the text in pink to view more details.
 
 Viewing Druid Connection Pool Monitoring Data
 ---------------------------------------------
@@ -315,17 +273,77 @@ The Druid connection pool monitoring system collects data sources, connection de
    | Version                  | Driver Version                       | Driver version.                                                                                              |
    +--------------------------+--------------------------------------+--------------------------------------------------------------------------------------------------------------+
 
--  Click a number in blue (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
--  Click the text in blue (such as those in the **Driver** or **Driver Version** column) to view more details.
+-  Click a number in pink (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
+-  Click the text in pink (such as those in the **Driver** or **Driver Version** column) to view more details.
 
+Viewing Hikari Connection Pool Monitoring Data
+----------------------------------------------
 
-.. figure:: /_static/images/en-us_image_0000001675954833.png
-   :alt: **Figure 9** Viewing Druid connection pool monitoring data
+The Hikari connection pool monitoring system collects the pool details, connection details, and exception information. You can click |image6| in the upper right corner of the list to customize the columns you want to view. For details about the metrics, see :ref:`Table 6 <apm_07_0010__en-us_topic_0000001217564316_table737216573912>`.
 
-   **Figure 9** Viewing Druid connection pool monitoring data
+.. _apm_07_0010__en-us_topic_0000001217564316_table737216573912:
+
+.. table:: **Table 6** Hikari connection pool parameters
+
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   | Metric Set              | Metric                      | Description                                            |
+   +=========================+=============================+========================================================+
+   | Connection pool details | Pool Address                | Connection address.                                    |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Driver Name                 | Driver name.                                           |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Max Pool Size               | Maximum number of connections that are allowed.        |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Total Connections           | Total number of current connections.                   |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Active Connections          | Number of active connections.                          |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Idle Connections            | Number of idle connections.                            |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Threads Awaiting Connection | Number of waiting connections.                         |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   | Connection details      | Connection Address          | Connection address.                                    |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Calls                       | Number of calls.                                       |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Total RT (ms)               | Total response time (ms).                              |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Avg RT (ms)                 | Average response time (ms).                            |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Errors                      | Number of errors.                                      |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Max Concurrency             | Maximum number of concurrent connections.              |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Max RT (ms)                 | Maximum response time.                                 |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | 0 ms-10 ms                  | Number of requests with 0 ms-10 ms response time.      |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | 10 ms-100 ms                | Number of requests with 10 ms-100 ms response time.    |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | 100 ms-500 ms               | Number of requests with 100 ms-500 ms response time.   |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | 500 ms-1s                   | Number of requests with 500 ms-1s response time.       |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | 1s-10s                      | Number of requests with 1s-10s response time.          |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | 10s-n                       | Number of requests with response time longer than 10s. |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   | Exception               | causeType                   | Exception class.                                       |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Exception Type              | Exception type.                                        |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Count                       | Number of times the exception occurred.                |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Error Message               | Message returned when the exception occurred.          |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+   |                         | Error Stack                 | Exception stack information.                           |
+   +-------------------------+-----------------------------+--------------------------------------------------------+
+
+-  Click a number in pink (such as those in the **Calls** or **Avg RT (ms)** column) to view more details.
 
 .. |image1| image:: /_static/images/en-us_image_0000001569846696.png
-.. |image2| image:: /_static/images/en-us_image_0000001914132610.png
-.. |image3| image:: /_static/images/en-us_image_0000001914389860.png
+.. |image2| image:: /_static/images/en-us_image_0000001946011757.png
+.. |image3| image:: /_static/images/en-us_image_0000001914229952.png
 .. |image4| image:: /_static/images/en-us_image_0000001278062153.png
 .. |image5| image:: /_static/images/en-us_image_0000001471158206.png
+.. |image6| image:: /_static/images/en-us_image_0000001946109009.png

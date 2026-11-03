@@ -9,13 +9,9 @@ You can add tags for different environments and applications for easy management
 
 Tag management covers tags and global tags.
 
-A tag is used to set a collector corresponding to the monitoring item under one or more environments of an application.
-
-A global tag is used to set a collector corresponding to the monitoring item under all environments of an application.
-
-.. note::
-
-   Priority: Global tag collector configuration > Tag collector configuration > Collector configuration of a monitoring item under an environment
+-  A tag is used to set a collector corresponding to the monitoring item under one or more environments of an application.
+-  A global tag is used to set a collector corresponding to the monitoring item under all environments of an application.
+-  Priority: Global tag collector configuration > Tag collector configuration > Collector configuration of a monitoring item under an environment
 
 Adding a Tag
 ------------
@@ -42,16 +38,16 @@ Adding a Tag
 
    .. table:: **Table 1** Tag parameters
 
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-      | Parameter                         | Description                                                                                                             |
-      +===================================+=========================================================================================================================+
-      | Tag                               | Enter 1 to 128 characters. Only digits, letters, underscores (_), hyphens (-), brackets, and periods (.) are allowed.   |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-      | Description                       | Enter up to 1000 characters. Only digits, letters, underscores (_), hyphens (-), brackets, and periods (.) are allowed. |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-      | Bind Environment                  | -  Search by component, environment, or application name is supported.                                                  |
-      |                                   | -  You can select one or more environments.                                                                             |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
+      | Parameter                         | Description                                                                                                              |
+      +===================================+==========================================================================================================================+
+      | Tag                               | Enter 1 to 128 characters. Only digits, letters, underscores (_), hyphens (-), brackets, and periods (.) are allowed.    |
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
+      | Description                       | Enter up to 1,000 characters. Only digits, letters, underscores (_), hyphens (-), brackets, and periods (.) are allowed. |
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
+      | Bind Environment                  | -  Search by component, environment, or application name is supported.                                                   |
+      |                                   | -  You can select one or more environments.                                                                              |
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
 
 #. Click **Yes**.
 

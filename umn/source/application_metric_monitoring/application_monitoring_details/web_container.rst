@@ -20,12 +20,6 @@ Going to the Web Container Page
 
 #. Click the **Web Container** tab. By default, the Tomcat monitoring information of all instances is displayed. For details about the metrics, see :ref:`Table 1 <apm_07_0061__en-us_topic_0000001568155621_table737216573912>`.
 
-
-   .. figure:: /_static/images/en-us_image_0000001675956117.png
-      :alt: **Figure 1** Going to the web container page
-
-      **Figure 1** Going to the web container page
-
    .. _apm_07_0061__en-us_topic_0000001568155621_table737216573912:
 
    .. table:: **Table 1** Tomcat monitoring parameters
@@ -52,16 +46,10 @@ Going to the Web Container Page
       | Version                | Version             | Tomcat version.                                                      |
       +------------------------+---------------------+----------------------------------------------------------------------+
 
-   -  Click a number in blue (such as those in the **Current Threads**, **Busy Threads**, or **Peak Busy Threads** column) to view the trend graph of the target web container in the specified period.
+   -  Click a number in pink (such as those in the **Current Threads**, **Busy Threads**, or **Peak Busy Threads** column) to view the trend graph of the target web container in a specified period.
    -  Click a version in the **Version** column to view details.
 
 #. On the displayed **Web Container** tab page, select a target instance and monitoring item to view the monitoring data in different metric sets.
-
-
-   .. figure:: /_static/images/en-us_image_0000001627439044.png
-      :alt: **Figure 2** Selecting an instance and monitoring item
-
-      **Figure 2** Selecting an instance and monitoring item
 
 #. Select a time range. Default: **Last 20 minutes**.
 
@@ -69,12 +57,12 @@ Going to the Web Container Page
 
 
    .. figure:: /_static/images/en-us_image_0000001602670490.png
-      :alt: **Figure 3** Selecting a time range
+      :alt: **Figure 1** Selecting a time range
 
-      **Figure 3** Selecting a time range
+      **Figure 1** Selecting a time range
 
 #. Click |image3| in the upper right corner of the list and select the metric data you want to view.
 
 .. |image1| image:: /_static/images/en-us_image_0000001620725989.png
-.. |image2| image:: /_static/images/en-us_image_0000001946011753.png
-.. |image3| image:: /_static/images/en-us_image_0000001946109001.png
+.. |image2| image:: /_static/images/en-us_image_0000001913972674.png
+.. |image3| image:: /_static/images/en-us_image_0000001914389852.png

@@ -49,7 +49,7 @@ You only need to install Agents for applications so that APM can monitor them in
 #. Service expansion:
 
    -  You can quickly diagnose application performance exceptions based on the application topology and tracing of APM, and make judgments based on the application O&M metrics of Application Operations Management (AOM).
-   -  Based on the historical metric data learned by using intelligent algorithms, APM associates metrics for analysis from multiple dimensions, extracts the context data of both normal and abnormal services for comparison, and locates root causes through cluster analysis.
+   -  APM uses intelligent algorithms to learn historical metric data. It can then associate metrics for analysis from multiple dimensions, extract the context data of both normal and abnormal services for comparison, and locate root causes through cluster analysis.
 
 Advantages
 ----------

@@ -23,7 +23,7 @@ The **Applications** page displays information such as components, environments,
 
       **Figure 1** Application list
 
-   **Component|Environment**: name of a component or environment. You can click the text in blue to go to the corresponding to component or environment page.
+   **Component|Environment**: name of a component or environment. You can click the text in pink to go to the corresponding to component or environment page.
 
    **Agent Status**: number of Agents in different statuses.
 
