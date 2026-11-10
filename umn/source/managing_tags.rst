@@ -81,7 +81,7 @@ Deleting a Tag
 
 #. Click the **Tags** tab.
 
-#. Locate the row that contains the target tag and click **Delete** in the **Operation** column. Alternatively, select the tags to delete and click **Delete** above the tag list.
+#. Locate the row that contains the target tag and click **Delete** in the **Operation** column. Alternatively, select the tags to delete and click **Delete**.
 
 
    .. figure:: /_static/images/en-us_image_0000001676864041.png

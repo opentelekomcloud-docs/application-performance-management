@@ -55,13 +55,7 @@ Going to the Web Container Page
 
    Options: **Last 20 minutes**, **Last hour**, **Last 3 hours**, **Last 6 hours**, **Last day**, **Today**, **Yesterday**, **Last week**, **Last month**, or **Custom**.
 
-
-   .. figure:: /_static/images/en-us_image_0000001602670490.png
-      :alt: **Figure 1** Selecting a time range
-
-      **Figure 1** Selecting a time range
-
-#. Click |image3| in the upper right corner of the list and select the metric data you want to view.
+#. Click |image3| in the upper right corner of the list and select the target metric data.
 
 .. |image1| image:: /_static/images/en-us_image_0000001620725989.png
 .. |image2| image:: /_static/images/en-us_image_0000001913972674.png

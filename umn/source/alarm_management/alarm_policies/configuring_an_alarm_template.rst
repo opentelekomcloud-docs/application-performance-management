@@ -33,7 +33,9 @@ Procedure
 
       **Remarks**: Enter up to 512 characters. Only letters, digits, underscores (_), and hyphens (-) are allowed.
 
-   b. Click **Add Alarm Policy** to add an alarm policy.
+   b. .. _apm_07_0024__en-us_topic_0000001199880678_li8974192317165:
+
+      Click **Add Alarm Policy** to add an alarm policy.
 
       #. Basic information
 
@@ -45,25 +47,25 @@ Procedure
 
          .. table:: **Table 1** Basic information about an alarm policy
 
-            +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-            | Parameter                         | Description                                                                                                                                                                                   |
-            +===================================+===============================================================================================================================================================================================+
-            | Policy Name                       | Custom name, which cannot be left blank.                                                                                                                                                      |
-            |                                   |                                                                                                                                                                                               |
-            |                                   | Only letters, digits, underscores (_), and hyphens (-) are allowed. Enter up to 512 characters.                                                                                               |
-            +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-            | Alarm Severity                    | Severity of an alarm. Options: **COMMON** and **CRITICAL**.                                                                                                                                   |
-            +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-            | Alarm Policy Type                 | Options: **Single-node** and **Aggregate**. **Single-node** indicates single-instance metric alarms, and **Aggregate** indicates aggregated metric alarms of all instances under a component. |
-            +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-            | Monitoring Item                   | Select a target monitoring item. The information about the selected item is displayed on the right.                                                                                           |
-            |                                   |                                                                                                                                                                                               |
-            |                                   | |image2|                                                                                                                                                                                      |
-            +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-            | Metric Set                        | Select a target metric set. The information about the selected metric set is displayed on the right.                                                                                          |
-            |                                   |                                                                                                                                                                                               |
-            |                                   | |image3|                                                                                                                                                                                      |
-            +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+            +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+            | Parameter                         | Description                                                                                                                                                                                      |
+            +===================================+==================================================================================================================================================================================================+
+            | Policy Name                       | Custom name, which cannot be left blank.                                                                                                                                                         |
+            |                                   |                                                                                                                                                                                                  |
+            |                                   | Only letters, digits, underscores (_), and hyphens (-) are allowed. Enter up to 512 characters.                                                                                                  |
+            +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+            | Alarm Severity                    | Severity of an alarm. Options: **COMMON** and **CRITICAL**.                                                                                                                                      |
+            +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+            | Alarm Policy Type                 | Options: **Single-node** and **Aggregate**. **Single-node** indicates single-instance metric alarms, and **Aggregate** indicates aggregated metric alarms of all instances under an environment. |
+            +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+            | Monitoring Item                   | Select a target monitoring item. The information about the selected item is displayed on the right.                                                                                              |
+            |                                   |                                                                                                                                                                                                  |
+            |                                   | |image2|                                                                                                                                                                                         |
+            +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+            | Metric Set                        | Select a target metric set. The information about the selected metric set is displayed on the right.                                                                                             |
+            |                                   |                                                                                                                                                                                                  |
+            |                                   | |image3|                                                                                                                                                                                         |
+            +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
       #. Alarm rule
 
@@ -102,11 +104,9 @@ Procedure
             +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
             | Multi-Line Matching               | (Optional) Whether to define data in the alarm notification content line by line.                                                                                                            |
             +-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-            | Notification Content              | Alarm details, which contain up to 500 characters.                                                                                                                                           |
+            | Notification Content              | -  If **Multi-Line Matching** is enabled, the alarm notification content supports both **Variable** and **Loop**. If **Multi-Line Matching** is disabled, only **Variable** can be selected. |
             |                                   |                                                                                                                                                                                              |
-            |                                   | -  If **Multi-Line Matching** is enabled, the alarm notification content supports both **Variable** and **Loop**. If **Multi-Line Matching** is disabled, only **Variable** can be selected. |
-            |                                   |                                                                                                                                                                                              |
-            |                                   | -  Alarm notification content. You can customize the content or select metrics as required.                                                                                                  |
+            |                                   | -  Alarm notification content. You can customize the content or select required metrics.                                                                                                     |
             |                                   |                                                                                                                                                                                              |
             |                                   | -  Alarm details, which contain up to 500 characters.                                                                                                                                        |
             |                                   |                                                                                                                                                                                              |
@@ -130,11 +130,11 @@ Procedure
          +===================================+==============================================================================================================================================================================================================================================================+
          | Use default settings              | -  If this option is enabled, alarms will be sent to one or more default notification objects. For details about how to set notification objects, see :ref:`Alarm Notification <apm_07_0026>`.                                                               |
          |                                   | -  After this option is enabled, you can no longer select notification objects from the **Notification Object** drop-down list.                                                                                                                              |
-         |                                   | -  If all the values in the **Default** column of the **Notifications** page are **No**, no default notification objects have been set. In this case, the **Use default settings** option on the alarm policy creation page is dimmed and cannot be enabled. |
+         |                                   | -  If all the values in the **Default** column of the **Notifications** page are **No**, no default notification objects have been set. In this case, the **Use default settings** option on the alarm policy creation page is grayed and cannot be enabled. |
          +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-         | Notification Object               | Select a notification object from the drop-down list.                                                                                                                                                                                                        |
-         |                                   |                                                                                                                                                                                                                                                              |
-         |                                   | Alarms will only be sent to the selected notification objects.                                                                                                                                                                                               |
+         | Notification Object               | -  Select a notification object from the drop-down list.                                                                                                                                                                                                     |
+         |                                   | -  Alarms will then be sent to the selected notification object. Unselected notification objects will not receive the alarm notifications.                                                                                                                   |
+         |                                   | -  Click |image6| to refresh notification objects.                                                                                                                                                                                                           |
          +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
    c. Click **Yes**.
@@ -187,7 +187,7 @@ After the alarm template is created, perform the operations listed in :ref:`Tabl
    +----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
    | Deleting a template              | Click **Delete** in the **Operation** column in the row that contains the template you want to delete.                            |
    +----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-   | Starting and stopping a template | Turn on or off the button (|image7|) in the **Operation** column in the row that contains the template you want to start or stop. |
+   | Starting and stopping a template | Turn on or off the button (|image8|) in the **Operation** column in the row that contains the template you want to start or stop. |
    +----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 
 .. |image1| image:: /_static/images/en-us_image_0000001542018454.png
@@ -195,5 +195,6 @@ After the alarm template is created, perform the operations listed in :ref:`Tabl
 .. |image3| image:: /_static/images/en-us_image_0000002237779669.png
 .. |image4| image:: /_static/images/en-us_image_0000001517956762.png
 .. |image5| image:: /_static/images/en-us_image_0000001568954813.png
-.. |image6| image:: /_static/images/en-us_image_0000002202703580.png
+.. |image6| image:: /_static/images/en-us_image_0000002327600345.png
 .. |image7| image:: /_static/images/en-us_image_0000002202703580.png
+.. |image8| image:: /_static/images/en-us_image_0000002202703580.png

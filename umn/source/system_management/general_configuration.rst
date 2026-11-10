@@ -5,7 +5,7 @@
 General Configuration
 =====================
 
-On the **General Configuration** page, you can determine whether to collect data through bytecode instrumentation, and specify the slow request threshold and maximum number of rows to collect.
+In **General Configuration**, you can determine whether to collect data through bytecode instrumentation and specify the slow request threshold and maximum number of rows to collect.
 
 #. Log in to the management console.
 

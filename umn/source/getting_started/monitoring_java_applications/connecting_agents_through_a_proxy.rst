@@ -2,19 +2,36 @@
 
 .. _apm_02_0004:
 
-Manually Installing Agents for Java Applications
-================================================
+Connecting Agents Through a Proxy
+=================================
 
-Prerequisites
--------------
+The network between your host and APM must be normal. If the network is disconnected, use a proxy.
 
--  The network between your host and APM is normal.
+You can run the **curl -kv** command to check the network.
 
-   You can run the **Telnet** command to check the network.
+Constraints
+-----------
 
-   If the network is not connected, use a proxy instead.
+-  Agents later than 2.4.1 support access through a proxy.
+-  Java supports enhanced Agents.
 
--  The AK/SK required for accessing JavaAgents have been obtained. To obtain them, log in to the APM console and choose **System Management** > **Access Keys** in the navigation pane.
+.. _apm_02_0004__en-us_topic_0000001241035473_section8132103817447:
+
+Modifying the apm.config File
+-----------------------------
+
+Add **apm.proxy** to the configuration file, as shown in the following figure. Format: "apm.proxy=ip:port".
+
+.. _apm_02_0004__en-us_topic_0000001241035473_section1458519142214:
+
+Obtaining the AK/SK Required for Connecting JavaAgents
+------------------------------------------------------
+
+-  Log in to the APM console.
+
+-  Click |image1| on the left and choose **Application** > **Application Performance Management**.
+
+-  Choose **System Management** > **Access Keys** in the navigation pane to obtain the required AK/SK.
 
 
    .. figure:: /_static/images/en-us_image_0000001627629722.png
@@ -39,7 +56,7 @@ Procedure
 
    **tar -xvf apm-javaagent-x.x.x.tar**
 
-4. Modify the **apm.config** file in the JavaAgent package. For details about how to configure **master.address**, see :ref:`Access Addresses <apm_02_0008__en-us_topic_0000001266768045_table201446686>`. Enter the AK/SK to the configuration file, as shown in the following figure.
+4. Modify the **apm.config** file in the JavaAgent package. For details, see :ref:`Modifying the apm.config File <apm_02_0004__en-us_topic_0000001241035473_section8132103817447>`. For details about how to configure **master.address**, see :ref:`Access Addresses <apm_02_0008__en-us_topic_0000001266768045_table201446686>`. Enter the AK/SK obtained in :ref:`Obtaining the AK/SK Required for Connecting JavaAgents <apm_02_0004__en-us_topic_0000001241035473_section1458519142214>` to the configuration file, as shown in the following figure.
 
 
    .. figure:: /_static/images/en-us_image_0000001196275562.png
@@ -70,3 +87,5 @@ Procedure
       Component names are unique under an application.
 
 6. Redeploy the application.
+
+.. |image1| image:: /_static/images/en-us_image_0000002409351828.png

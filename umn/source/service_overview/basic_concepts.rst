@@ -10,12 +10,10 @@ Application Topology
 
 A topology graphically displays call and dependency relationships between applications. It is composed of circles, lines with arrows, and resources. Each line with an arrow represents a call relationship. The number of requests, average response time, and the number of errors are displayed above the line. Different colors indicate different RT ranges, helping you quickly detect and locate faults.
 
-.. note::
-
-   -  Database: When the database call time is greater than or equal to 100 ms, the value turns yellow. When this time is greater than or equal to 200 ms, the value turns red.
-   -  Cache: When the cache call time is greater than or equal to 10 ms, the value turns yellow. When this time is greater than or equal to 30 ms, the value turns red.
-   -  Other API calls: When the API call time is greater than or equal to 500 ms, the value turns yellow. When this time is greater than or equal to 1000 ms, the value turns red.
-   -  If the number of errors is greater than 0, the value turns red.
+-  Database: When the database call time is greater than or equal to 100 ms, the value turns yellow. When this time is greater than or equal to 200 ms, the value turns red.
+-  Cache: When the cache call time is greater than or equal to 10 ms, the value turns yellow. When this time is greater than or equal to 30 ms, the value turns red.
+-  Other API calls: When the API call time is greater than or equal to 500 ms, the value turns yellow. When this time is greater than or equal to 1000 ms, the value turns red.
+-  If the number of errors is greater than 0, the value turns red.
 
 
 .. figure:: /_static/images/en-us_image_0000001196297610.png
@@ -47,15 +45,15 @@ Apdex is an open standard developed by the Apdex alliance. It defines a standard
 
 -  Apdex principle
 
-Apdex defines the threshold "T" for application response time. "T" is determined based on performance expectations. Based on the actual response time and "T", user experience can be categorized as follows:
+   Apdex defines the threshold "T" for application response time. "T" is determined based on performance expectations. Based on the actual response time and "T", user experience can be categorized as follows:
 
-Satisfied: indicates that the actual response time is shorter than or equal to "T". For example, if "T" is 1.5s and the actual response time is 1s, user experience is satisfied.
+   Satisfied: indicates that the actual response time is shorter than or equal to "T". For example, if "T" is 1.5s and the actual response time is 1s, user experience is satisfied.
 
-Tolerable: indicates that the actual response time is greater than "T", but shorter than or equal to "4T". For example, if "T" is 1s, the tolerable upper threshold for the response time is 4s.
+   Tolerable: indicates that the actual response time is greater than "T", but shorter than or equal to "4T". For example, if "T" is 1s, the tolerable upper threshold for the response time is 4s.
 
-Frustrated: indicates that the actual response time is greater than "4T".
+   Frustrated: indicates that the actual response time is greater than "4T".
 
-|image1|
+   |image1|
 
 -  Apdex calculation
 

@@ -161,7 +161,7 @@ You can view the thread details of the corresponding instance on APM. For detail
    Thread details Thread Name   Thread name.
    \              Threads       Number of threads.
    \              CPU Time (ms) Thread CPU time.
-   \              Memory (MB)   Memory (MB).
+   \              Memory (MB)   Memory size in MB.
    \              Thread Stack  Thread stack.
    ============== ============= ==================
 
@@ -210,7 +210,7 @@ Viewing Java Methods
    |            | 10s-n           | Number of requests with response time longer than 10s. |
    +------------+-----------------+--------------------------------------------------------+
 
--  Click a number (such as those in the **Calls** or **Errors** column) to view the trend of the thread in a specified period.
+-  Click a number (such as those in the **Calls** or **Errors** column) to view the trend of the method in a specified period.
 
 .. |image1| image:: /_static/images/en-us_image_0000001570285326.png
 .. |image2| image:: /_static/images/en-us_image_0000001914132626.png

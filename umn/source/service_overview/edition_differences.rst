@@ -5,7 +5,7 @@
 Edition Differences
 ===================
 
-APM provides basic and enterprise editions and supports interconnection with Java applications. The following table lists the functions supported by each edition.
+APM provides free and enterprise editions and supports interconnection with Java applications. APM can be upgraded from the free edition to the enterprise edition, but cannot be downgraded from the enterprise edition to the free edition (basic edition). The following table lists the functions supported by each edition.
 
 +---------------------------------------------------------------------+-------------------------------------------------------+-------------------------+
 | Edition                                                             | Free                                                  | Enterprise              |
@@ -28,7 +28,3 @@ APM provides basic and enterprise editions and supports interconnection with Jav
 +---------------------------------------------------------------------+-------------------------------------------------------+-------------------------+
 | Note: **Y** indicates supported, and **x** indicates not supported. |                                                       |                         |
 +---------------------------------------------------------------------+-------------------------------------------------------+-------------------------+
-
-.. note::
-
-   The enterprise edition cannot be downgraded back to the free edition (basic edition).

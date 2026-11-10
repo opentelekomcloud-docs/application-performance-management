@@ -2,8 +2,8 @@
 
 .. _apm_02_0005:
 
-Installing Agents for the Java Applications Deployed in CCE Containers
-======================================================================
+Connecting JavaAgents for Applications Deployed in CCE Containers
+=================================================================
 
 .. _apm_02_0005__en-us_topic_0000001195795614_section8132103817447:
 
@@ -14,17 +14,18 @@ Prerequisites
 
 -  The network between your host and APM is normal.
 
-   You can run the **Telnet** command to check the network.
+   You can run the **curl -kv** command to check the network.
 
 -  For details, see `Regions and Endpoints <https://docs.otc.t-systems.com/regions-and-endpoints/index.html>`__.
+-  Obtain the AK/SK required by JavaAgent.
 
--  The AK/SK required for accessing JavaAgents have been obtained. To obtain them, log in to the APM console and choose **System Management** > **Access Keys** in the navigation pane.
+   #. Log in to the APM console and choose **System Management** > **Access Keys** in the navigation pane to obtain the required AK/SK.
 
 
-   .. figure:: /_static/images/en-us_image_0000002188473004.png
-      :alt: **Figure 1** Obtaining an AK/SK
+      .. figure:: /_static/images/en-us_image_0000002188473004.png
+         :alt: **Figure 1** Obtaining an AK/SK
 
-      **Figure 1** Obtaining an AK/SK
+         **Figure 1** Obtaining an AK/SK
 
 Usage Instruction
 -----------------
@@ -41,6 +42,8 @@ APM only supports Java applications deployed on CCE. :ref:`Table 1 <apm_02_0005_
    | Probe                             | Select a target probe. Options: **Disable**/**APM probe**.                                                                                            |
    +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Probe Version                     | Version of the probe. You are advised to select a probe version based on the CPU architecture of the node where the workload is located.              |
+   |                                   |                                                                                                                                                       |
+   |                                   | The latest Agent provided by APM supports multiple JDK environments.                                                                                  |
    +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Probe Upgrade Policy              | Policy for the probe upgrade. The default value is **Auto upgrade upon restart**.                                                                     |
    |                                   |                                                                                                                                                       |

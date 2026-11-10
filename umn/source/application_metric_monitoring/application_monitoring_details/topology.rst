@@ -20,6 +20,16 @@ Viewing the Topology
 
 #. Switch to the **Topology** tab page. The call trend of the selected instance is displayed.
 
+#. Right-click a component and then click **Viewing a Call Chain** or **Viewing Indicators**.
+
+   -  Viewing traces
+
+      Click **Viewing a Call Chain** to go to the trace page of the component. For details, see :ref:`Tracing <apm_07_0018>`.
+
+   -  Viewing indicators
+
+      Click **Viewing Indicators** to go to the URL page of the component. For details, see :ref:`URL <apm_07_0006>`.
+
 #. Click |image3| next to **Display only calls between components**.
 
    When the button turns pink, only the calls between components are displayed.

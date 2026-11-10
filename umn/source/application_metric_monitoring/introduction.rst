@@ -7,7 +7,7 @@ Introduction
 
 APM Agents periodically collect performance metric data to measure the overall health status of applications. They can collect the metric data of JVM, GC, service calls, exceptions, external calls, database access, and middleware, helping you comprehensively monitor application running.
 
-APM has strict definitions on metric data collection. Each type of data to be collected corresponds to a collector. For example, for JVM data of Java applications, a JVM collector is provided. A collector collects data of multiple metric sets. For details about collectors and metric sets, see :ref:`Collection Center <apm_07_0031>`.
+APM has strict definitions on metric data collection. Each type of data to be collected corresponds to a collector. For example, for JVM data of Java applications, a JVM collector is provided. A collector collects data of multiple metric sets. For details about collectors and metric sets, see :ref:`Collection Center <apm_07_1131>`.
 
 After collectors are deployed in the environment, monitoring items are generated. During data collection, the monitoring items determine data structures and collection behaviors.
 
@@ -21,6 +21,8 @@ Monitoring Item Types
 Agents automatically discover collection plug-ins and instantiate collectors to form monitoring items. Monitoring items are instantiated in an environment.
 
 There are many types of collectors, which are hard to distinguish. The system backend groups collectors for easy data query.
+
+Application monitoring enables you to monitor the overall health status of applications. Basic monitoring items include the topology, URL, JVM, and exceptions. Other monitoring items, such as calls, communication protocols, databases, web containers, caches, and message queues, are automatically discovered and displayed.
 
 The **Metrics** page displays only the involved monitoring item metrics of connected applications.
 

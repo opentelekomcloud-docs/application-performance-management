@@ -13,9 +13,10 @@ If your account does not need individual IAM users for permissions management, y
 
 IAM can be used free of charge. You pay only for the resources in your account. For more information about IAM, see `IAM Service Overview <https://docs.otc.t-systems.com/identity-access-management/umn/service_overview/what_is_iam.html#iam-01-0026>`__.
 
-.. important::
+Constraints
+-----------
 
-   Traces and Agent statistics do not involve your entity resources. To ensure statistics integrity, authorized users can check the trace and Agent statistics in all enterprise projects of a tenant.
+Traces and Agent statistics do not involve your entity resources. To ensure statistics integrity, authorized users can check the trace and Agent statistics in all enterprise projects of a tenant.
 
 .. _apm_01_0007__en-us_topic_0000001195725122_section186901838201416:
 

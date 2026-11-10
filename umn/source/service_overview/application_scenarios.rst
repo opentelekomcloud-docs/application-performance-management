@@ -44,13 +44,15 @@ APM analyzes the complete process (user request > server > database > server > u
 -  Application KPI analysis: KPIs such as throughput, latency, and call success rate are displayed, so that you can monitor user experience easily.
 -  Full-link performance tracing: Web services, caches, and databases are traced, so that you can detect performance bottlenecks quickly.
 
-Intelligent Diagnosis
----------------------
+Fault Diagnosis
+---------------
 
 **Pain Points**
 
-Massive services bring abundant but unassociated application O&M data, including hundreds of monitoring metrics, KPI data, and tracing data. How can metric and alarm data be associated for analysis from the application, component, or URL tracing perspective? How can possible causes be provided for exceptions based on the historical data and O&M experience library?
+Countless services bring abundant but unassociated application O&M data, including hundreds of monitoring metrics and tracing data. How can metric and alarm data be associated for analysis from the application, component, or URL tracing perspective? How can possible causes be provided for exceptions?
 
 **Service Implementation**
 
-APM supports automatic detection of faults using machine learning algorithms, and intelligent diagnosis. When an exception is found during URL tracing, APM learns historical metric data based on intelligent algorithms, associates exception metrics for multi-dimensional analysis, extracts characteristics of context data (such as resources, parameters, and call structures) for both normal and abnormal services, and locate root causes through cluster analysis.
+-  Through URL tracing, you can monitor the call relationships between important APIs and downstream services, and detect problems more precisely.
+-  APM comprehensively monitors calls and displays service execution traces and statuses, helping you quickly locate performance bottlenecks and faults.
+-  When an application connected to APM meets a preset alarm condition, an alarm is triggered and reported. In this way, you can quickly learn about service exceptions and rectify faults to prevent loss.

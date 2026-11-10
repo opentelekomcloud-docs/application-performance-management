@@ -74,12 +74,30 @@ This function is used to search for span information, that is, the root event of
       | Application Code      | If you have configured **Service Code Length**, **Key for Service Code Interception**, and **Normal Service Code**, corresponding application codes will be collected. You can search information based on application codes. Generally, the value of **Application Code** is the same as the value of **Normal Service Code**. For details about how to configure URL monitoring, see :ref:`Configuring the URL Monitoring Item <apm_07_0015>`. | No                    |
       +-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
 
-Viewing Trace Details
----------------------
+#. Click **Search Trace** to filter the traces that meet search criteria.
+
+   -  Only the traces of successful or failed requests can be displayed. The following uses **Successful Request** as an example.
+
+      -  Click the green button next to **Successful Request**, only the traces of successful requests are displayed. The red button next to **Failed Request** becomes grayed.
+      -  If you click the green button again, both the traces of successful and failed requests are displayed. The red button is no longer grayed.
+      -  The green and red buttons cannot be grayed at the same time.
+
+   -  .. _apm_07_0018__en-us_topic_0000001086591079_li34971745173010:
+
+      **Response Time**: response time of a trace. Click **Response Time**. Traces are sorted by response time in descending order, and |image2| is displayed. Click **Response Time** again. Traces are sorted by response time in ascending order, and |image3| is displayed. Click **Response Time** for the third time. The trace list is restored to the initial state and |image4| is displayed.
+
+   -  **Generated**: start time of a trace. You can sort traces by generation time. The sorting method is similar to that of :ref:`Response Time <apm_07_0018__en-us_topic_0000001086591079_li34971745173010>`.
+
+   -  You can click **Clear** to clear the search criteria and results.
+
+      You can also click a specific URL on the monitoring item view page, for example, the table view of the URL monitoring item. In this way, you can quickly search for required trace information based on preset search criteria.
+
+Checking Trace Details
+----------------------
 
 **Viewing Basic Information About the Trace Filtered Based on the Search Criteria**
 
-In the displayed trace list, click |image2| next to the target trace to view its basic information, as shown in the following figure.
+In the displayed trace list, click |image5| next to the target trace to view its basic information, as shown in the following figure.
 
 
 .. figure:: /_static/images/en-us_image_0000001627775070.png
@@ -100,13 +118,6 @@ Parameter description:
 #. Host of the instance to which the trace belongs.
 #. IP address of the instance to which the trace belongs.
 #. Actual URL of the trace.
-#. Only the traces of successful or failed requests can be displayed. The following uses **Successful Request** as an example.
-
-   -  Click the green button next to **Successful Request**, only the traces of successful requests are displayed. The red button next to **Failed Request** becomes dimmed.
-   -  If you click the green button again, both the traces of successful and failed requests are displayed. The red button is no longer dimmed.
-   -  The green and red buttons cannot be grayed at the same time.
-
-You can also click a specific URL on the monitoring item view page, for example, the table view of the URL monitoring item. In this way, you can quickly search for required trace information based on preset search criteria.
 
 **Viewing the Complete Information About the Trace, Including Local Method Stacks and Remote Call Relationships**
 
@@ -126,7 +137,11 @@ Click the name of a trace to view its details, as shown in the following figure.
 
 #. Component and environment to which the called API belongs
 
-#. Response time (unit: ms) of the client. You can hover the mouse pointer over this digit to view more details.
+#. Response time (unit: ms) of the client. You can hover the pointer over the line between components to view the client and server information.
+
+   -  Real URL: REST URL of the trace. A REST URL contains a variable name, for example, **/apm/get/**\ *{id}*.
+
+   -  Response time: response time of the trace.
 
 #. Response time (unit: ms) of the server.
 
@@ -134,9 +149,9 @@ Click the name of a trace to view its details, as shown in the following figure.
 
 #. Number of components that are involved.
 
-#. Call parameters. Click |image3| to view the call parameters.
+#. Call parameters. Click |image6| to view the call parameters.
 
-#. Click |image4| to download the sequence diagram.
+#. Click |image7| to download the sequence diagram.
 
 #. Traces are displayed in a tree. **Depth** indicates the number of layers in the tree.
 
@@ -146,7 +161,12 @@ Click the name of a trace to view its details, as shown in the following figure.
 
       **Figure 3** Depth
 
+#. Duration, that is, the total time of a trace request.
+
 .. |image1| image:: /_static/images/en-us_image_0000001570694488.png
-.. |image2| image:: /_static/images/en-us_image_0000001262928973.png
-.. |image3| image:: /_static/images/en-us_image_0000002096110598.png
-.. |image4| image:: /_static/images/en-us_image_0000002096273458.png
+.. |image2| image:: /_static/images/en-us_image_0000002303076126.png
+.. |image3| image:: /_static/images/en-us_image_0000002337035489.png
+.. |image4| image:: /_static/images/en-us_image_0000002336955705.png
+.. |image5| image:: /_static/images/en-us_image_0000001262928973.png
+.. |image6| image:: /_static/images/en-us_image_0000002096110598.png
+.. |image7| image:: /_static/images/en-us_image_0000002096273458.png

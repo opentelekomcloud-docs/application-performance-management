@@ -41,7 +41,7 @@ Creating an Application
 
 #. Click **Confirm**.
 
-   After an application is created, connect it to APM for monitoring. For details about the access method, see :ref:`Monitoring Java Applications <apm_02_0002>`.
+   After an application is created, connect it to APM for monitoring. For details, see :ref:`Monitoring Java Applications <apm_02_0002>`.
 
 .. |image1| image:: /_static/images/en-us_image_0000001579455730.png
 .. |image2| image:: /_static/images/en-us_image_0000001629294721.png

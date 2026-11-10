@@ -28,20 +28,14 @@ Going to the SQL Page
 
    Options: **Last 20 minutes**, **Last hour**, **Last 3 hours**, **Last 6 hours**, **Last day**, **Today**, **Yesterday**, **Last week**, **Last month**, or **Custom**.
 
-
-   .. figure:: /_static/images/en-us_image_0000001602510794.png
-      :alt: **Figure 1** Selecting a time range
-
-      **Figure 1** Selecting a time range
-
-#. Click |image3| in the upper right corner of the list and select the metric data you want to view.
+#. Click |image3| in the upper right corner of the list and select the target metric data.
 
 Viewing MySQL Database Monitoring Data
 --------------------------------------
 
 **SQL summary**
 
-APM can monitor MySQL databases by SQL. For details about the metrics, see :ref:`Table 1 <apm_07_0010__en-us_topic_0000001217564316_table835410610214>`. Click |image4| in the upper right corner of the list and select the metric data you want to view.
+APM can monitor MySQL databases by SQL. For details about the metrics, see :ref:`Table 1 <apm_07_0010__en-us_topic_0000001217564316_table835410610214>`. Click |image4| in the upper right corner of the list and select the target metric data.
 
 .. _apm_07_0010__en-us_topic_0000001217564316_table835410610214:
 

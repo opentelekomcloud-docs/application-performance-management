@@ -19,7 +19,7 @@ Introduction to APM
 
 Application Performance Management (APM) helps O&M personnel quickly identify application performance bottlenecks and locate root causes of faults, ensuring user experience.
 
-You only need to install Agents for applications so that APM can monitor them in an all-round manner. APM can quickly locate error APIs and slow APIs, reproduce calling parameters, and detect system bottlenecks, facilitating online diagnosis. Currently, APM supports Java applications. The following table lists the application monitoring capabilities of APM.
+You only need to install Agents for applications so that APM can monitor them in an all-round manner. APM can quickly locate error APIs and slow APIs, reproduce calling parameters, and detect system bottlenecks, facilitating online diagnosis. APM supports Java applications. The following table lists the application monitoring capabilities of APM.
 
 .. note::
 
@@ -34,7 +34,7 @@ You only need to install Agents for applications so that APM can monitor them in
    +----------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Application metric monitoring                            | APM automatically monitors application metrics, such as JVM, JavaMethod, URL, Exception, Tomcat, HttpClient, MySQL, Redis, and Kafka.                                                                                        |
    +----------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Application topology                                     | APM automatically generates call relationships between distributed applications based on dynamic analysis and intelligent computing of remote procedure call (RPC) information.                                              |
+   | Application topology                                     | APM automatically generates call relationships between distributed applications based on dynamic analysis and computing of remote procedure call (RPC) information.                                                          |
    +----------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Tracing                                                  | After multiple applications are connected to APM, APM automatically samples requests, and collects the call relationships between services and the health status of intermediate calls for automatic tracing.                |
    +----------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -49,7 +49,7 @@ You only need to install Agents for applications so that APM can monitor them in
 #. Service expansion:
 
    -  You can quickly diagnose application performance exceptions based on the application topology and tracing of APM, and make judgments based on the application O&M metrics of Application Operations Management (AOM).
-   -  APM uses intelligent algorithms to learn historical metric data. It can then associate metrics for analysis from multiple dimensions, extract the context data of both normal and abnormal services for comparison, and locate root causes through cluster analysis.
+   -  APM uses algorithms to analyze historical metric data. It can then associate metrics for analysis from multiple dimensions, extract the context data of both normal and abnormal services for comparison, and locate root causes through analysis.
 
 Advantages
 ----------
@@ -68,11 +68,6 @@ Delivers high throughput (hundreds of millions of API calls), ensuring premium e
 
 Provides open APIs to query O&M data, offers collection standards, and supports independent development.
 
-|image4|
-
-Reports alarms using Artificial Intelligence (AI) threshold detection and machine learning based on historical baseline data, and supports root cause analysis.
-
 .. |image1| image:: /_static/images/en-us_image_0000001278522953.png
 .. |image2| image:: /_static/images/en-us_image_0000001278405305.png
 .. |image3| image:: /_static/images/en-us_image_0000001234565280.png
-.. |image4| image:: /_static/images/en-us_image_0000001278805009.png
