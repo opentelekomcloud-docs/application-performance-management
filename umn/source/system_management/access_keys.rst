@@ -47,7 +47,7 @@ Adding an Access Key
 
       **Figure 1** Adding an AK/SK
 
-#. Add an access key description and click **Yes** to generate an access key.
+#. Enter an access key description and click **Yes** to generate an access key.
 
    To modify the description, click **Modify** in the **Operation** column in the row that contains the target access key.
 

@@ -5,14 +5,14 @@
 Functions
 =========
 
-APM manages cloud application performance. It provides application metric monitoring, tracing, application topology, URL tracing, intelligent alarm reporting, tag/Agent/configuration/system management, and application monitoring.
+APM manages cloud application performance. It provides application metric monitoring, tracing, application topology, URL tracing, tag management, intelligent alarm reporting, Agent management, configuration management, and system management.
 
 Application Metric Monitoring
 -----------------------------
 
 This function enables you to monitor the overall health status of applications. It includes application monitoring details, application monitoring settings, monitoring item views, instances, collection status, and component settings.
 
--  Application monitoring details: APM Agents collect metrics of JVM, GC, service calls, exceptions, external calls, database access, and middleware of Java applications to help you monitor their conditions.
+-  Application monitoring details: APM Agents collect JVM, GC, service call, exception, external call, database access, and middleware metrics of Java applications to help you monitor their conditions.
 -  Application monitoring settings: You can customize collection parameters for some collectors.
 -  Monitoring item views: APM supports summary tables, trend graphs, latest data tables, and raw data tables.
 
@@ -27,7 +27,7 @@ APM comprehensively monitors calls and displays service execution traces and sta
 Application Topology
 --------------------
 
-There are two types of application topologies:
+Application topologies include:
 
 -  Single-component topology: topology of a single component under a certain environment. You can also view the call relationships of direct and indirect upstream and downstream components.
 -  Global application topology: topology of some or all components under an application.
@@ -44,33 +44,28 @@ Tag Management
 
 You can add tags for different environments and applications for easy management.
 
-Intelligent Alarm Reporting
----------------------------
+Intelligent Alarms
+------------------
 
 When an application connected to APM meets a preset alarm condition, an alarm is triggered and reported. In this way, you can quickly learn about service exceptions and rectify faults to prevent loss.
 
-APM allows you to configure alarm templates. You can create multiple alarm policies under a template and bind them to nodes.
+APM supports alarm configuration. You can create multiple alarm policies and bind them to nodes.
 
-With intelligent alarm reporting, you can receive alarms by SMS, email, or function.
+With the intelligent alarm function, specified personnel can receive SMS or email alarm notifications.
 
 Agent Management
 ----------------
 
 You can view the deployment and running statuses of the Agents that are connected to APM, and to stop, start, or delete them.
 
-Configuration Management
-------------------------
-
-**Configuration Management** consists of **Collection Center** and **Data Masking**.
-
--  **Collection Center**: displays collectors in a centralized manner. You can view and manage various collectors, metrics, and collection parameters supported by APM.
--  **Data Masking**: You can set policies to mask the data reported using APM APIs.
-
 System Management
 -----------------
 
-**System Management** consists of **Access Keys**, **General Configuration**, and **Agent Count**.
+**System Management**: includes **Collection Center**, **Data Masking**, **Usage Statistics**, **Access Keys**, and **General Configuration**.
+
+-  **Collection Center**: displays collectors in a centralized manner. You can view and manage various collectors, metrics, and collection parameters supported by APM.
+-  **Data Masking**: You can set data masking policies. The data reported using APM APIs will be masked based on the policies you set.
+-  **Usage Statistics**: After Agents are connected, you can check **Agent Statistics** on the **Usage Statistics** page.
 
 -  **Access Keys**: Access Key ID (AK) and Secret Access Key (SK) are your long-term identity credentials. JavaAgents report data with an AK. An AK is used together with an SK to sign requests cryptographically, ensuring that the requests are secret, complete, and correct.
--  **General Configuration**: You can determine whether to collect data through bytecode instrumentation, and specify the slow request threshold and maximum number of rows to collect.
--  **Agent Count**: APM can count the Agents used by tenants. You can view the number of Agents by time, region, or Agent type.
+-  **General Configuration**: You can determine whether to collect data through bytecode instrumentation, and specify the slow request threshold and maximum number of rows to collect .

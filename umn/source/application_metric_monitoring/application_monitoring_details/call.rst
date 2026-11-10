@@ -28,14 +28,14 @@ Going to the Call Page
 
    Options: **Last 20 minutes**, **Last hour**, **Last 3 hours**, **Last 6 hours**, **Last day**, **Today**, **Yesterday**, **Last week**, **Last month**, or **Custom**.
 
-#. Click |image3| in the upper right corner of the list and select the metric data you want to view.
+#. Click |image3| in the upper right corner of the list and select the target metric data.
 
 Viewing HttpClient Monitoring Data
 ----------------------------------
 
 **URL summary**
 
-The HttpClient monitoring system collects the metrics of each URL. For details about the metrics, see :ref:`Table 1 <apm_07_0009__en-us_topic_0000001262004153_table43721153163916>`. Click |image4| in the upper right corner of the list and select the metric data you want to view.
+The HttpClient monitoring system collects the metrics of each URL. For details about the metrics, see :ref:`Table 1 <apm_07_0009__en-us_topic_0000001262004153_table43721153163916>`. Click |image4| in the upper right corner of the list and select the target metric data.
 
 .. _apm_07_0009__en-us_topic_0000001262004153_table43721153163916:
 

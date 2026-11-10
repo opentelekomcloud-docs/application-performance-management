@@ -17,7 +17,6 @@ Application Performance Management - User Guide
    agent_management/index
    managing_tags
    alarm_management/index
-   configuration_management/index
    system_management/index
    permissions_management/index
    faqs/index

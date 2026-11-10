@@ -26,7 +26,7 @@ Going to the URL Page
 
    Options: **Last 20 minutes**, **Last hour**, **Last 3 hours**, **Last 6 hours**, **Last day**, **Today**, **Yesterday**, **Last week**, **Last month**, or **Custom**.
 
-#. Click |image3| in the upper right corner of the list and select the metric data you want to view.
+#. Click |image3| in the upper right corner of the list and select the target metric data.
 
 Viewing URL Monitoring Data
 ---------------------------

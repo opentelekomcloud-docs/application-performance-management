@@ -14,7 +14,7 @@ This section describes the types, names, and meanings of MongoDB metrics collect
    +==================================+===========+==================+=========+===============================+=============================+==========================================================================================================================+
    | TraceReportTimeSpanThreshold(ms) | integer   | JAVA             | 1       | 2.1.13                        | ``-``                       | Threshold for reporting getConnection method traces. If the threshold is not exceeded, such traces will not be reported. |
    +----------------------------------+-----------+------------------+---------+-------------------------------+-----------------------------+--------------------------------------------------------------------------------------------------------------------------+
-   | isParseOriginalCommand           | radio     | JAVA             | false   | 2.2.2                         | ``-``                       | Indicates whether to collect original Mongo JSON commands.                                                               |
+   | isParseOriginalCommand           | radio     | JAVA             | false   | 2.2.2                         | ``-``                       | Whether to collect original Mongo JSON commands.                                                                         |
    +----------------------------------+-----------+------------------+---------+-------------------------------+-----------------------------+--------------------------------------------------------------------------------------------------------------------------+
 
 .. table:: **Table 2** MongoDB metrics

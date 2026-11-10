@@ -20,7 +20,7 @@ Procedure
 
 #. Click the **Alarm Policy** tab.
 
-#. Click **Add Custom Alarm Policy** and set the alarm condition in the same way as that when you create an alarm template.
+#. Click **Add Custom Alarm Policy** and set the alarm condition in the same way as that when you create an alarm template. For details, see :ref:`6.b <apm_07_0024__en-us_topic_0000001199880678_li8974192317165>`.
 
 
    .. figure:: /_static/images/en-us_image_0000001788084553.png
@@ -57,6 +57,6 @@ After the alarm policy is created, perform the operations listed in :ref:`Table 
 
 .. |image1| image:: /_static/images/en-us_image_0000001542177914.png
 .. |image2| image:: /_static/images/en-us_image_0000001946108913.png
-.. |image3| image:: /_static/images/en-us_image_0000001946108901.png
+.. |image3| image:: /_static/images/en-us_image_0000001914389760.png
 .. |image4| image:: /_static/images/en-us_image_0000002237705905.png
 .. |image5| image:: /_static/images/en-us_image_0000002237705905.png

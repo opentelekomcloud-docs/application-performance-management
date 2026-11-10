@@ -38,10 +38,13 @@ Process Flow
 
    Create a user group on the IAM console, and assign the **APM ReadOnlyAccess** policy to the group.
 
-#. `Creating a User <https://docs.otc.t-systems.com/identity-access-management/umn/user_guide/iam_users/creating_a_user.html#en-us-topic-0046611303>`__
+#. `Creating an IAM User <https://docs.otc.t-systems.com/identity-access-management/umn/user_guide/iam_users/creating_a_user.html#en-us-topic-0046611303>`__
 
    Create a user on the IAM console and add the user to the group created in :ref:`1 <apm_07_0038__en-us_topic_0000001088190833_li578363074615>`.
 
 #. `Logging In as an IAM User <https://docs.otc.t-systems.com/identity-access-management/umn/user_guide/iam_users/logging_in_as_an_iam_user.html>`__ and Verifying Permissions
 
-   Log in to the APM console using the created user, and verify that the user only has read permissions for APM.
+   In the authorized region, perform the following operations:
+
+   -  Choose **Service List** > **Application Performance Management**. If you can only check APM data but cannot connect an Agent, the **APM ReadOnlyAccess** policy is in effect.
+   -  Choose another service from **Service List** (assuming that only the **APM ReadOnlyAccess** policy is available). If a message appears indicating that you have insufficient permissions to access the service, the **APM ReadOnlyAccess** policy is in effect.

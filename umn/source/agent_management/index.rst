@@ -5,7 +5,7 @@
 Agent Management
 ================
 
--  :ref:`Introduction <apm_07_0213>`
+-  :ref:`Overview <apm_07_0213>`
 -  :ref:`Performing Operations on Agents <apm_07_0028>`
 -  :ref:`Upgrading Agents <apm_07_0029>`
 
@@ -13,6 +13,6 @@ Agent Management
    :maxdepth: 1
    :hidden: 
 
-   introduction
+   overview
    performing_operations_on_agents
    upgrading_agents

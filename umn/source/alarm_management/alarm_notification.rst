@@ -5,9 +5,9 @@
 Alarm Notification
 ==================
 
-Alarms can be sent to specified terminals by SMS message, email, or function. In this way, you can obtain component exceptions in a timely manner and quickly rectify faults to avoid service loss. Ensure that you have the SMN permission. For details, see *Simple Message Notification (SMN) User Guide*.
+Alarm notifications can be sent to specified personnel through SMS and emails so that they can detect and handle faults in a timely manner, preventing loss. Ensure that you have the SMN permission. For details, see *Simple Message Notification (SMN) User Guide*.
 
-If you do not create any notification object, no alarm notifications will be received. To view alarms, log in to the APM console and choose **Alarm Center** > **Alarm List** in the navigation pane.
+-  If you do not create any notification object, no alarm notifications will be received. To view alarms, log in to the APM console and choose **Alarm Center** > **Alarm List** in the navigation pane.
 
 Creating a Notification Object
 ------------------------------

@@ -32,4 +32,4 @@ Why Does APM Metric Collection Fail?
 
    -  Java 9 reports an illegal reflective access alarm. (This problem will be solved in versions later than Java 9.)
 
-      Workaround: Set **--illegal-access** to **warn** or delete this option.
+      Workaround: Set **illegal-access** to **warn** or delete this option.
